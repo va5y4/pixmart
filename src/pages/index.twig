@@ -1,9 +1,7 @@
+{% set current_page = 'index' %}
 {% extends 'src/templates/layouts/base.twig' %}
 
-{% from 'src/templates/partials/ui/icon.twig' import icon %}
-
 {% block content %}
-  <h1>{{ index.title }}</h1>
+	<main class="main"></main>
 
-  {% include 'src/templates/partials/welcome-section.twig' %}
 {% endblock %}
