@@ -1,6 +1,28 @@
 {
-  "common": {
+  "head": {
     "title": "Pixmart",
     "description": "Craft Your Success with Our Digital Assets"
-  }
+  },
+  "nav": [
+    {
+      "title": "About",
+      "url": ""
+    },
+    {
+      "title": "Products",
+      "url": ""
+    },
+    {
+      "title": "Creators",
+      "url": ""
+    },
+    {
+      "title": "Blog",
+      "url": ""
+    },
+    {
+      "title": "Contact",
+      "url": ""
+    }
+  ]
 }
