@@ -1,0 +1,18 @@
+<section class='categories'>
+  <div class='categories__grid'>
+    {% for item in cards %}
+      <article class='categories__card'>
+        <img src='{{item.src}}' alt='{{item.alt}}'>
+        <span class='categories__card-title'>{{ item.title }}</span>
+        <span class='categories__card-description'>{{ item.description1 }}</span>
+        <span class='separator'>•</span>
+        <span class='categories__card-description'>{{ item.description2 }}</span>
+      </article>
+    {% endfor %}
+  </div>
+  <div class='categories__details'>
+    <span class='label'>{{ categories.label }}</span>
+    <h2 class='categories__heading'>{{ categories.heading }}</h2>
+    <p class='categories__description'>{{ categories.description }}</p>
+  </div>
+</section>
