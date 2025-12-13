@@ -1,0 +1,18 @@
+<section class="hero">
+  <header>
+    <h1>{{ hero.title|raw }}</h1>
+    <p>{{ hero.subtitle }}</p>
+    <nav aria-label="Hero actions">
+      {% for button in hero.buttons %}
+        <a href="{{ button.href }}" class="{{ button.class }}">{{ button.label }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+  <div class="hero-images" aria-label="Product previews">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+  </div>
+</section>
