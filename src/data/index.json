@@ -1,51 +1,77 @@
 {
-    "hero": {
-        "title1": "Craft Your Success with Our",
-        "highlight": "Digital",
-        "title2": " Assets",
-        "description": "From our inspiring illustrations to dynamic UI/UX kits, elevate your projects with our premium digital design resources.",
-        "shop": "Shop Now",
-        "watch": "Watch About Us"
+  "hero": {
+    "title1": "Craft Your Success with Our",
+    "highlight": "Digital",
+    "title2": " Assets",
+    "description": "From our inspiring illustrations to dynamic UI/UX kits, elevate your projects with our premium digital design resources.",
+    "shop": "Shop Now",
+    "watch": "Watch About Us"
+  },
+  "products": [
+    {
+      "href": "",
+      "src": "",
+      "alt": "UI Kits icon",
+      "name": "UI Kits"
     },
-    "products": [
-        {
-            "href": "",
-            "src": "",
-            "alt": "UI Kits icon",
-            "name": "UI Kits"
-        },
-        {
-            "href": "",
-            "src": "",
-            "alt": "Social Media icon",
-            "name": "Socia Media"
-        },
-        {
-            "href": "",
-            "src": "",
-            "alt": "Presentation icon",
-            "name": "Presentation"
-        },
-        {
-            "href": "",
-            "src": "",
-            "alt": "Fonts icon",
-            "name": "Fonts"
-        },
-        {
-            "href": "",
-            "src": "",
-            "alt": "Illustrations icon",
-            "name": "Illustrations"
-        }
-    ],
-    "cards": [
-        {
-            "src": "",
-            "alt": "Templates icon",
-            "title": "Templates",
-            "description1": "For all needs",
-            "description2": "Modern"
-        }
-    ]
+    {
+      "href": "",
+      "src": "",
+      "alt": "Social Media icon",
+      "name": "Socia Media"
+    },
+    {
+      "href": "",
+      "src": "",
+      "alt": "Presentation icon",
+      "name": "Presentation"
+    },
+    {
+      "href": "",
+      "src": "",
+      "alt": "Fonts icon",
+      "name": "Fonts"
+    },
+    {
+      "href": "",
+      "src": "",
+      "alt": "Illustrations icon",
+      "name": "Illustrations"
+    }
+  ],
+  "cards": [
+    {
+      "src": "",
+      "alt": "Templates icon",
+      "title": "Templates",
+      "description1": "For all needs",
+      "description2": "Modern"
+    },
+    {
+      "src": "",
+      "alt": "App Icons icon",
+      "title": "App Icons",
+      "description1": "High-quality",
+      "description2": "Elegant"
+    },
+    {
+      "src": "",
+      "alt": "Slides icon",
+      "title": "Slides",
+      "description1": "Pitch-ready",
+      "description2": "Creative"
+    },
+    {
+      "src": "",
+      "alt": "Design Tools icon",
+      "title": "Design Tools",
+      "description1": "Easy to use",
+      "description2": "Unique"
+    }
+  ],
+  "categories": {
+    "label": "CATEGORIES",
+    "heading": "Discover Assets for Every Projects",
+    "description": "From fonts and icons to mockups and templates, our comprehensive categories ensure that you find exactly what you need to your projects."
+  }
 }
