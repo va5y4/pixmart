@@ -1,12 +1,21 @@
-<section class="header">
-	<a href="" class="header__logo"><img src="" alt="Pixmart logo"></a>
-	<ul class="header__nav">
-		{% for item in common.nav %}
-			<li>
-				<a href="{{ item.url }}">{{ item.title }}</a>
-			</li>
-		{% endfor %}
-	</ul>
-	<input type="text" id="search" name="search">
-	<button type="button" class="button cart-btn"><img src="" alt="Cart icon"></button>
-</section>
+<header class="header">
+	<a href="/" class="header__logo">
+		<img src="" alt="Pixmart logo">
+	</a>
+	<nav aria-label="Main navigation">
+		<ul class="header__nav">
+			{% for item in common.nav %}
+				<li>
+					<a href="{{ item.url }}">{{ item.title }}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</nav>
+	<form role="search" class="header__search" aria-label="Site search" autocomplete="off">
+		<label for="search" class="visually-hidden">Search</label>
+		<input type="text" id="search" name="search" placeholder="Search...">
+	</form>
+	<button type="button" class="button cart-btn" aria-label="View cart">
+		<img src="" alt="Cart">
+	</button>
+</header>
