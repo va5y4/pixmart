@@ -1,5 +1,44 @@
 {
-  "index": {
-    "title": "Pixmart"
-  }
+  "hero": {},
+  "products": [
+    {
+      "image": "UI_Kits.png",
+      "alt": "UI Kits icon",
+      "caption": "UI Kits"
+    },
+    {
+      "image": "Social_Media.png",
+      "alt": "Social Media icon",
+      "caption": "Social Media"
+    },
+    {
+      "image": "Presentation.png",
+      "alt": "Presentation icon",
+      "caption": "Presentation"
+    },
+    {
+      "image": "Fonts.png",
+      "alt": "Fonts icon",
+      "caption": "Fonts"
+    },
+    {
+      "image": "Illustrations.png",
+      "alt": "Illustrations icon",
+      "caption": "Illustrations"
+    }
+  ],
+  "title": "Craft Your <br>Success with<br>Our Digital Assets",
+  "subtitle": "From our inspiring illustrations to dynamic UI/UX kits, elevate your projects with our premium digital design resources.",
+  "buttons": [
+    {
+      "label": "Shop Now",
+      "class": "btn btn-primary",
+      "href": ""
+    },
+    {
+      "label": "Watch About Us",
+      "class": "btn btn-secondary",
+      "href": ""
+    }
+  ]
 }
