@@ -1,12 +1,6 @@
 <section class="products">
-  <ul>
-    {% for product in products %}
-      <li>
-        <figure>
-          <img src="{{ product.image }}" alt="{{ product.alt }}" />
-          <figcaption>{{ product.caption }}</figcaption>
-        </figure>
-      </li>
+    <ul> {% for item in products %}
+        <li><a href="{{ item.href }}"><img src="{{item.src}}" alt="{{item.alt}}"></a>{{item.name}}</li>
     {% endfor %}
-  </ul>
+    </ul>
 </section>
