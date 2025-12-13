@@ -1,6 +1,12 @@
-<section class="products">
-    <ul> {% for item in products %}
-        <li><a href="{{ item.href }}"><img src="{{item.src}}" alt="{{item.alt}}"></a>{{item.name}}</li>
+<section class='products'>
+  <ul>
+    {% for item in products %}
+      <li>
+        <a href='{{ item.href }}'>
+          <img src='{{item.src}}' alt='{{item.alt}}'>
+          {{ item.name }}
+        </a>
+      </li>
     {% endfor %}
-    </ul>
+  </ul>
 </section>
