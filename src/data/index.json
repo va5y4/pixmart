@@ -38,5 +38,14 @@
             "alt": "Illustrations icon",
             "name": "Illustrations"
         }
+    ],
+    "cards": [
+        {
+            "src": "",
+            "alt": "Templates icon",
+            "title": "Templates",
+            "description1": "For all needs",
+            "description2": "Modern"
+        }
     ]
 }
