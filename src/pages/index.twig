@@ -2,6 +2,8 @@
 {% extends 'src/templates/layouts/base.twig' %}
 
 {% block content %}
-	<main class="main"></main>
-
+	<main class="main">
+	{% include 'src/templates/partials/index/hero.twig' %}
+	{% include 'src/templates/partials/index/products.twig' %}
+	</main>
 {% endblock %}
