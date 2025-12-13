@@ -1,14 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-	{% include '../partials/common/head.twig' %}
-	<body>
-		<main class="main">
-			{% include '../partials/common/header.twig' %}
-			{% block content %}{% endblock %}
-			{% include '../partials/common/footer.twig' %}
-		</main>
-	</body>
+  {% include '../partials/common/head.twig' %}
+  <body>
+    <main class='main'>
+      {% include '../partials/common/header.twig' %}
+      {% block content %}{% endblock %}
+      {% include '../partials/common/footer.twig' %}
+    </main>
+  </body>
 </html>
 
-{# {% import '../partials/ui/picture.twig' as picture_macro %}
-{% import '../partials/ui/icon.twig' as icon_macro %} #}
+{#
+  {% import '../partials/ui/picture.twig' as picture_macro %}
+  {% import '../partials/ui/icon.twig' as icon_macro %}
+#}
