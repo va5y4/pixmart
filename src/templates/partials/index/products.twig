@@ -1,0 +1,12 @@
+<section class="products">
+  <ul>
+    {% for product in products %}
+      <li>
+        <figure>
+          <img src="{{ product.image }}" alt="{{ product.alt }}" />
+          <figcaption>{{ product.caption }}</figcaption>
+        </figure>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
