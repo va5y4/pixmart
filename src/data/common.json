@@ -6,23 +6,23 @@
   "nav": [
     {
       "title": "About",
-      "url": ""
+      "url": "/about"
     },
     {
       "title": "Products",
-      "url": ""
+      "url": "/products"
     },
     {
       "title": "Creators",
-      "url": ""
+      "url": "/creators"
     },
     {
       "title": "Blog",
-      "url": ""
+      "url": "/blog"
     },
     {
       "title": "Contact",
-      "url": ""
+      "url": "/contact"
     }
   ]
 }
