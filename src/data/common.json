@@ -24,5 +24,8 @@
       "title": "Contact",
       "url": "/contact"
     }
-  ]
+  ],
+  "cart": {
+    "alt": "Alt icon"
+  }
 }

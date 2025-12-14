@@ -1,0 +1,25 @@
+<section class='trending'>
+  <div class='trending__header'>
+    <span class='trending__label label'>{{ trending.label }}</span>
+    <h2 class='trending__heading'>{{ trending.heading }}</h2>
+    <div class='trending__nav-buttons'>
+      <button type='button' aria-label='Navigation left button' class='trending__nav-left button'>left</button>
+      <button type='button' aria-label='Navigation right button' class='trending__nav-right button'>right</button>
+    </div>
+  </div>
+  <div class='trending__grid'>
+    {% for item in trending.grid %}
+      <div class='trending__grid-item'>
+        <img src='{{item.src}}' alt='{{item.alt}}'>
+        {% if item.trophy %}
+          <span class='trending__trophy-icon'>⭐️</span>
+        {% endif %}
+        <span class='trending__grid-title'>{{ item.title }}</span>
+        <span class='trending__grid-description'>{{ item.price }}</span>
+        <span class='trending__grid-description'>{{ item.description1 }}</span>
+        <span class='separator'>•</span>
+        <span class='trending__grid-description2'>{{ item.description2 }}</span>
+      </div>
+    {% endfor %}
+  </div>
+</section>

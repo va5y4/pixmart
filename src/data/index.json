@@ -72,6 +72,49 @@
   "categories": {
     "label": "CATEGORIES",
     "heading": "Discover Assets for Every Projects",
-    "description": "From fonts and icons to mockups and templates, our comprehensive categories ensure that you find exactly what you need to your projects."
+    "description": "From fonts and icons to mockups and templates, our comprehensive categories ensure that you find exactly what you need to your projects.",
+    "button": "Shop Now"
+  },
+  "trending": {
+    "label": "TRENDING",
+    "heading": "Popular Products",
+    "grid": [
+      {
+        "src": "",
+        "alt": "Travel Hero image",
+        "trophy": true,
+        "title": "Travel Hero",
+        "price": "€29.99",
+        "description1": "Adventure",
+        "description2": "Journey"
+      },
+      {
+        "src": "",
+        "alt": "Healthcare Pro image",
+        "trophy": true,
+        "title": "Healthcare Pro",
+        "price": "€15.99",
+        "description1": "Medical",
+        "description2": "Wellness"
+      },
+      {
+        "src": "",
+        "alt": "Foodish Delight image",
+        "trophy": false,
+        "title": "Foodish Delight",
+        "price": "€31.99",
+        "description1": "Catering",
+        "description2": "Food"
+      },
+      {
+        "src": "",
+        "alt": "Real Estate image",
+        "trophy": false,
+        "title": "Real Estate",
+        "price": "€40.99",
+        "description1": "Modern",
+        "description2": "Homes"
+      }
+    ]
   }
 }
