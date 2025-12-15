@@ -1,0 +1,17 @@
+<section class='pricing'>
+  <span class='pricing__label label'>{{ pricing.label }}</span>
+  <h2 class='pricing__heading'>{{ pricing.heading }}</h2>
+  <div class='pricing__plans'>
+    {% for item in pricing.plans %}
+      <div class='pricing__plan-card'>
+        <div class='pricing__plan-header'>
+          <span class='pricing__plan-title'>{{ item.title }}</span>
+          <div class='pricing__plan-cost'>
+            <span class='pricing__plan-price'>{{ item.price }}</span>
+            <span class='pricing__plan-frequency'>{{ item.frequency }}</span>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
