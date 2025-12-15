@@ -9,10 +9,8 @@
     <a class='hero__watch-button button' href=''><img src='' alt='watch about us icon'>{{ hero.watch }}</a>
   </div>
   <div class='hero__images'>
-    <img src='' alt='hero image'>
-    <img src='' alt='hero image'>
-    <img src='' alt='hero image'>
-    <img src='' alt='hero image'>
-    <img src='' alt='hero image'>
+    {% for item in hero.images %}
+      <img src='{{item.src}}' alt='{{item.alt}}'>
+    {% endfor %}
   </div>
 </section>
