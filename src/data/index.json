@@ -142,11 +142,36 @@
   "pricing": {
     "label": "PRICING",
     "heading": "Choose The Perfect Plan for Creative Potential",
+    "badge": "BESTSELLER",
     "plans": [
       {
         "title": "Standard Membership",
         "price": "€14.99",
-        "frequency": "/ Month"
+        "frequency": "/ Month",
+        "button": "Subscribe",
+        "bestseller": false
+      }
+    ],
+    "list": [
+      {
+        "src": "",
+        "alt": "Checkmark icon",
+        "list_item": "Enhanced Resource Access"
+      },
+      {
+        "src": "",
+        "alt": "Checkmark icon",
+        "list_item": "Monthly Credits"
+      },
+      {
+        "src": "",
+        "alt": "Checkmark icon",
+        "list_item": "Priority Customer Support"
+      },
+      {
+        "src": "",
+        "alt": "Checkmark icon",
+        "list_item": "Community Features Access"
       }
     ]
   }
