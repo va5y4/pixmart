@@ -2,14 +2,40 @@
   <span class='pricing__label label'>{{ pricing.label }}</span>
   <h2 class='pricing__heading'>{{ pricing.heading }}</h2>
   <div class='pricing__plans'>
-    {% for item in pricing.plans %}
+    {% for plan in pricing.plans %}
       <div class='pricing__plan-card'>
+        {% if plan.bestseller %}
+          <span class='pricing__plan-badge'>
+            {{ pricing.badge }}
+          </span>
+        {% endif %}
         <div class='pricing__plan-header'>
-          <span class='pricing__plan-title'>{{ item.title }}</span>
+          <span class='pricing__plan-title'>
+            {{ plan.title }}
+          </span>
           <div class='pricing__plan-cost'>
-            <span class='pricing__plan-price'>{{ item.price }}</span>
-            <span class='pricing__plan-frequency'>{{ item.frequency }}</span>
+            <span class='pricing__plan-price'>
+              {{ plan.price }}
+            </span>
+            <span class='pricing__plan-frequency'>
+              {{ plan.frequency }}
+            </span>
           </div>
+        </div>
+        <div class='pricing__plan-main'>
+          {% if plan.list is defined and plan.list is not empty %}
+            <ul>
+              {% for feature in plan.list %}
+                <li>
+                  <img src='{{ feature.src }}' alt=''>
+                  {{ feature.list_item }}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+          <button type='button'>
+            {{ plan.button }}
+          </button>
         </div>
       </div>
     {% endfor %}
