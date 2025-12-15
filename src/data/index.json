@@ -5,7 +5,29 @@
     "title2": " Assets",
     "description": "From our inspiring illustrations to dynamic UI/UX kits, elevate your projects with our premium digital design resources.",
     "shop": "Shop Now",
-    "watch": "Watch About Us"
+    "watch": "Watch About Us",
+    "images": [
+      {
+        "src": "",
+        "alt": "Hero image"
+      },
+      {
+        "src": "",
+        "alt": "Hero image"
+      },
+      {
+        "src": "",
+        "alt": "Hero image"
+      },
+      {
+        "src": "",
+        "alt": "Hero image"
+      },
+      {
+        "src": "",
+        "alt": "Hero image"
+      }
+    ]
   },
   "products": [
     {
@@ -114,6 +136,17 @@
         "price": "€40.99",
         "description1": "Modern",
         "description2": "Homes"
+      }
+    ]
+  },
+  "pricing": {
+    "label": "PRICING",
+    "heading": "Choose The Perfect Plan for Creative Potential",
+    "plans": [
+      {
+        "title": "Standard Membership",
+        "price": "€14.99",
+        "frequency": "/ Month"
       }
     ]
   }
