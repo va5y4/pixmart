@@ -93,13 +93,13 @@
   ],
   "categories": {
     "label": "CATEGORIES",
-    "heading": "Discover Assets for Every Projects",
+    "title": "Discover Assets for Every Projects",
     "description": "From fonts and icons to mockups and templates, our comprehensive categories ensure that you find exactly what you need to your projects.",
     "button": "Shop Now"
   },
   "trending": {
     "label": "TRENDING",
-    "heading": "Popular Products",
+    "title": "Popular Products",
     "grid": [
       {
         "src": "",
