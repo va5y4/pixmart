@@ -143,7 +143,35 @@
     {
       "is_bestseller": false,
       "title": "Standard Membership",
-      "price": "€14.99"
+      "price": "€14.99",
+      "benefits": [
+        "Enhanced Resource Access",
+        "Monthly Credits",
+        "Priority Customer Support",
+        "Community Features Access"
+      ]
+    },
+    {
+      "is_bestseller": true,
+      "title": "Plus Membership",
+      "price": "€29.99",
+      "benefits": [
+        "All Standard Benefits",
+        "Increased Monthly Credits",
+        "Early Access to New Releases",
+        "Member-Only Offers"
+      ]
+    },
+    {
+      "is_bestseller": false,
+      "title": "Pro Membership",
+      "price": "€49.99",
+      "benefits": [
+        "All Plus Benefits",
+        "Unlimited Downloads",
+        "Custom Licensing",
+        "Direct Creator Collaboration"
+      ]
     }
   ]
 }
