@@ -1,6 +1,6 @@
 <section class='pricing'>
-  <span class='pricing__label label'>PRICING PLAN</span>
-  <h2 class='pricing__heading'>Choose The Perfect Plan for Creative Potential</h2>
+  <span class='pricing__label label'>{{ pricing.label }}</span>
+  <h2 class='pricing__heading'>{{ pricing.heading }}</h2>
   <div class='pricing__list'>
     {% for plan in pricing_plans %}
       {% include '..\ui\membership-card.twig' with plan %}
