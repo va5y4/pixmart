@@ -1,0 +1,20 @@
+<div class='membership-card'>
+  {% if is_bestseller %}
+    <div class='membership-card__badge'>BEST SELLER</div>
+  {% endif %}
+
+  <div class='membership-card__header'>
+    <h5 class='membership-card__title'>{{ title }}</h5>
+    <p class='membership-card__price'>
+      <span class='membership-card__amount'>{{ price }}</span> / Month
+    </p>
+  </div>
+
+  <ul class='membership-card__benefits'>
+    {% for benefit in benefits %}
+      <li class='membership-card__benefit-item'>{{ benefit }}</li>
+    {% endfor %}
+  </ul>
+
+  <button class='membership-card__subscribe-button'>Subscribe</button>
+</div>
