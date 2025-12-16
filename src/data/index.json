@@ -177,5 +177,19 @@
   "pricing": {
     "label": "PRICING",
     "title": "Choose The Perfect Plan for Creative Potential"
+  },
+  "faq_list": [
+    {
+      "question": "Can I request a refund?"
+    },
+    {
+      "question": "How do I access my purchased products?",
+      "answer": "Accessing your purchased products is seamless and hassle-free on our digital design assets marketplace. Simply log in to your account, navigate to the 'My Purchases' section, and you'll find all your purchased products ready for download."
+    }
+  ],
+  "faq": {
+    "label": "FAQ",
+    "title": "Answers to Your Questions",
+    "button": "Ask Us A Question"
   }
 }

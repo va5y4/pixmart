@@ -1,0 +1,18 @@
+<section class='faq'>
+  <div class='faq__header'>
+    <div class='faq__header-wrapper'>
+      <span class='faq__label label'>{{ faq.label }}</span>
+      <h2 class='faq__title'>{{ faq.title }}</h2>
+    </div>
+    <a href=''>{{ faq.button }}</a>
+  </div>
+
+  <div class='faq__list'>
+    {% for item in faq_list %}
+      <details class='faq-item'>
+        <summary class='faq-item__question'>{{ item.question }}</summary>
+        <p class='faq-item__answer'>{{ item.answer }}</p>
+      </details>
+    {% endfor %}
+  </div>
+</section>
