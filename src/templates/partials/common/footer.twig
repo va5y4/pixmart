@@ -1,0 +1,51 @@
+<footer>
+  <div class='footer-top'>
+    <div class='footer-top__header'>
+      <div class='footer-top__details'>
+        <img src='' alt='{{footer.logo_alt}}'>
+        <p class='footer-top__description'>{{ footer.description }}</p>
+      </div>
+      <div class='footer-top__nav'>
+        {% for item in footer.nav %}
+          <span>{{ item.title }}</span>
+          <ul>
+            {% for link in item.links %}
+              <li>{{ link }}</li>
+            {% endfor %}
+          </ul>
+        {% endfor %}
+      </div>
+    </div>
+    <div class='footer-top__actions'>
+      {% for item in footer.socials %}
+        <a href=''><img src='' alt='{{ item.alt }}'></a>
+      {% endfor %}
+      <form action='/subscribe' method='post'>
+        <span>{{ footer.newsletter_title }}</span>
+        <label for='email'>Email Address:</label>
+        <input
+          type='email'
+          id='email'
+          name='email'
+          placeholder='Enter your email address...'
+          required
+          autocomplete='email'
+        >
+        <button type='submit' class='footer-top__actions button'>Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <div class='footer-bottom'>
+    <div class='footer-bottom__legal'>
+      <ul>
+        {% for item in footer.legal %}
+          <li>{{ item }}</li>
+          {% if not loop.last %}
+            |
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class='footer-bottom__copyright'>Copyright &copy;{{ footer.copyright }}</div>
+  </div>
+</footer>

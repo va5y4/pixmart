@@ -27,5 +27,58 @@
   ],
   "cart": {
     "alt": "Alt icon"
+  },
+  "footer": {
+    "description": "Your premium digital assets solution with high quality and comprehensive range of products and services.",
+    "logo_alt": "Pixmart logo",
+    "newsletter_title": "Subscribe to <br> Design Newsletter",
+    "socials": [
+      {
+        "alt": "Twitter icon"
+      },
+      {
+        "alt": "Facebook icon"
+      },
+      {
+        "alt": "Telegram icon"
+      }
+    ],
+    "nav": [
+      {
+        "title": "Company",
+        "links": [
+          "Homepage v1",
+          "Homepage v2",
+          "Homepage v3",
+          "About Us",
+          "About Us",
+          "Blog Articles"
+        ]
+      },
+      {
+        "title": "Products",
+        "links": [
+          "Website",
+          "Mobile App",
+          "Social Media Feeds",
+          "Presentation",
+          "Product Mockups",
+          "Illustrations"
+        ]
+      },
+      {
+        "title": "Account",
+        "links": [
+          "Your Cart",
+          "Check Out",
+          "Refund Policy",
+          "Company Policy",
+          "Send A Message",
+          "Customer Support"
+        ]
+      }
+    ],
+    "legal": ["Privacy Policy", "Terms and Condition", "Site Map"],
+    "copyright": " 2024 Pixmart. All rights reserved."
   }
 }
