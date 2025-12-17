@@ -1,0 +1,12 @@
+<aside class='sidebar'>
+  <div class='sidebar__categories'>
+    <h4>{{ sidebar.categories.title }}</h4>
+
+    {% for item in sidebar.categories.list %}
+      <div class='sidebar__categories-item'>
+        <input type='checkbox' id='cat-{{ item }}' name='category'>
+        <label for='cat-{{ item }}'>{{ item }}</label>
+      </div>
+    {% endfor %}
+  </div>
+</aside>
