@@ -47,38 +47,105 @@
       {
         "title": "Company",
         "links": [
-          "Homepage v1",
-          "Homepage v2",
-          "Homepage v3",
-          "About Us",
-          "About Us",
-          "Blog Articles"
+          {
+            "label": "Homepage v1",
+            "url": "/homepage"
+          },
+          {
+            "label": "Homepage v2",
+            "url": "/homepage-v2"
+          },
+          {
+            "label": "Homepage v3",
+            "url": "/homepage-v3"
+          },
+          {
+            "label": "About Us",
+            "url": "/about-us"
+          },
+          {
+            "label": "About Us",
+            "url": "/about-us"
+          },
+          {
+            "label": "Blog Articles",
+            "url": "/blog-articles"
+          }
         ]
       },
       {
         "title": "Products",
         "links": [
-          "Website",
-          "Mobile App",
-          "Social Media Feeds",
-          "Presentation",
-          "Product Mockups",
-          "Illustrations"
+          {
+            "label": "Website",
+            "url": "/website"
+          },
+          {
+            "label": "Mobile App",
+            "url": "/mobile-app"
+          },
+          {
+            "label": "Social Media Feeds",
+            "url": "/social-media-feeds "
+          },
+          {
+            "label": "Presentation",
+            "url": "presentation"
+          },
+          {
+            "label": "Product Mockups",
+            "url": "/products-mockups"
+          },
+          {
+            "label": "Illustrations",
+            "url": "/illustrations"
+          }
         ]
       },
       {
         "title": "Account",
         "links": [
-          "Your Cart",
-          "Check Out",
-          "Refund Policy",
-          "Company Policy",
-          "Send A Message",
-          "Customer Support"
+          {
+            "label": "Your Cart",
+            "url": "/your-cart"
+          },
+          {
+            "label": "Check Out",
+            "url": "/check-out"
+          },
+          {
+            "label": "Refund Policy",
+            "url": "/refund-policy"
+          },
+          {
+            "label": "Company Policy",
+            "url": "/company-policy"
+          },
+          {
+            "label": "Send A Message",
+            "url": "/send-a-message"
+          },
+          {
+            "label": "Customer Support",
+            "url": "/customer-support"
+          }
         ]
       }
     ],
-    "legal": ["Privacy Policy", "Terms and Condition", "Site Map"],
+    "legal": [
+      {
+        "name": "Privacy Policy",
+        "href": ""
+      },
+      {
+        "name": "Terms and Condition",
+        "href": ""
+      },
+      {
+        "name": "Site Map",
+        "href": ""
+      }
+    ],
     "copyright": " 2024 Pixmart. All rights reserved."
   }
 }

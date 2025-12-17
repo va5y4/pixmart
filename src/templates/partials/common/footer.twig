@@ -10,7 +10,9 @@
           <span>{{ item.title }}</span>
           <ul>
             {% for link in item.links %}
-              <li>{{ link }}</li>
+              <li>
+                <a href='{{ link.url }}'>{{ link.label }}</a>
+              </li>
             {% endfor %}
           </ul>
         {% endfor %}
@@ -22,7 +24,7 @@
       {% endfor %}
       <form action='/subscribe' method='post'>
         <span>{{ footer.newsletter_title }}</span>
-        <label for='email'>Email Address:</label>
+        <label for='email' class='visually-hidden'>Email Address:</label>
         <input
           type='email'
           id='email'
@@ -39,7 +41,9 @@
     <div class='footer-bottom__legal'>
       <ul>
         {% for item in footer.legal %}
-          <li>{{ item }}</li>
+          <a href='{{item.href}}'>
+            <li>{{ item.name }}</li>
+          </a>
           {% if not loop.last %}
             |
           {% endif %}
