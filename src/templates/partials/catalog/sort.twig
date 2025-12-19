@@ -1,0 +1,7 @@
+<section class='sort'>
+  <select class='sort__select' name='category' id='category-select'>
+    {% for item in sort.list %}
+      <option value='best_seller' selected>{{ item }}</option>
+    {% endfor %}
+  </select>
+</section>
