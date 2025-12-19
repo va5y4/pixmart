@@ -5,6 +5,7 @@
     "title_suffix": "Design Assets"
   },
   "sidebar": {
+    "reset": "Clear All Filters",
     "categories": {
       "title": "Categories",
       "list": [
@@ -18,6 +19,20 @@
         "Others",
         "Others"
       ]
+    },
+    "format": {
+      "title": "Format Type",
+      "list": [
+        "Figma",
+        "Sketch",
+        "Adobe XD",
+        "Adobe Photoshop",
+        "Adobe Illustration"
+      ]
+    },
+    "style": {
+      "title": "Style",
+      "list": ["Minimalist", "Modern", "Playful", "Dark Mode", "Photocentric"]
     }
   }
 }
