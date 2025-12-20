@@ -1,7 +1,23 @@
 <section class='sort'>
-  <select class='sort__select' name='category' id='category-select'>
-    {% for item in sort.list %}
-      <option value='best_seller' selected>{{ item }}</option>
-    {% endfor %}
-  </select>
+  <div class='sort__categories'>
+    <select class='sort__select' name='category' id='category-select'>
+      {% for item in sort.list %}
+        <option value='best_seller' selected>{{ item }}</option>
+      {% endfor %}
+    </select>
+    <div class='sort__results'>
+      <span>{{ sort.results }}</span>
+      <button type='button' class='button sort__view-button-primary' aria-label='View in primary mode'>
+        view-button-secondary
+      </button>
+      <button type='button' class='button sort__view-button-secondary' aria-label='View in secondary mode'>
+        view-button-secondary
+      </button>
+    </div>
+    <div class='sort__tags'>
+      {% for item in sort.tags %}
+        <button type='button' class='button sort__tag-button'>{{ item }}</button>
+      {% endfor %}
+    </div>
+  </div>
 </section>

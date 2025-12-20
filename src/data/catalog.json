@@ -34,5 +34,9 @@
       "title": "Style",
       "list": ["Minimalist", "Modern", "Playful", "Dark Mode", "Photocentric"]
     }
+  },
+  "sort": {
+    "list": ["Best Seller"],
+    "tags": ["UI Kit", "UI Kit"]
   }
 }
