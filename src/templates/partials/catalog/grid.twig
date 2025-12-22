@@ -1,0 +1,16 @@
+<section class='grid'>
+  {% for item in catalog.grid %}
+    <div class='grid__item{% if item.status == 'SOLD OUT' %} grid__item--sold{% endif %}'>
+      <span class='grid__badge'>{{ item.status }}</span>
+      <img src='' alt='Grid item image'>
+      <h5 class='grid__title'>{{ item.title }}</h5>
+      <p class='grid__description'>{{ item.description }}</p>
+      <span class='grid__cost'>{{ item.price }}</span>
+      {% if item.status == 'POPULAR' or item.status == 'NEW' %}
+        <button class='grid__heart' aria-label='Add to favorites'>❤</button>
+        <button class='grid__buy' aria-label='Buy product'>Buy</button>
+      {% endif %}
+    </div>
+  {% endfor %}
+  <button class='grid__load-more'>Load more</button>
+</section>

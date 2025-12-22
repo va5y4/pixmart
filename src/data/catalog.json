@@ -39,6 +39,80 @@
     "sort": {
       "list": ["Best Seller"],
       "tags": ["UI Kit", "UI Kit"]
-    }
+    },
+    "grid": [
+      {
+        "status": "SOLD OUT",
+        "title": "Lens Chronicles",
+        "description": "Photography · Creative",
+        "price": "€00.00"
+      },
+      {
+        "status": "NEW",
+        "title": "Career Success",
+        "description": "Guidance · Jobs",
+        "price": "€20.99"
+      },
+      {
+        "status": "POPULAR",
+        "title": "Dream Homes",
+        "description": "Real Estate · Modern",
+        "price": "€45.99"
+      },
+      {
+        "status": "POPULAR",
+        "title": "Foodish Catering",
+        "description": "Food · Events",
+        "price": "€15.99"
+      },
+      {
+        "status": "NEW",
+        "title": "Caring Hearts",
+        "description": "Healthcare · Support",
+        "price": "€19.99"
+      },
+      {
+        "status": "SOLD OUT",
+        "title": "Gaming Rise",
+        "description": "eSports · Trends",
+        "price": "€00.00"
+      },
+      {
+        "status": "SOLD OUT",
+        "title": "Edit Pro",
+        "description": "Design · Tools",
+        "price": "€00.00"
+      },
+      {
+        "status": "NEW",
+        "title": "Banking Redefined",
+        "description": "Finance · Secure",
+        "price": "€25.99"
+      },
+      {
+        "status": "POPULAR",
+        "title": "Exploring Fun",
+        "description": "Travel · Adventure",
+        "price": "€41.99"
+      },
+      {
+        "status": "POPULAR",
+        "title": "Admin Dashboard",
+        "description": "Data · Toolse",
+        "price": "€15.99"
+      },
+      {
+        "status": "NEW",
+        "title": "Analytical Dashboard",
+        "description": "Data · Toolse",
+        "price": "€10.99"
+      },
+      {
+        "status": "SOLD OUT",
+        "title": "Kindergarten",
+        "description": "Education · Kids",
+        "price": "€00.00"
+      }
+    ]
   }
 }
