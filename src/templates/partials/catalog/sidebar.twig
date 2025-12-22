@@ -1,8 +1,8 @@
 <aside class='sidebar'>
   <form action=''>
     <div class='sidebar__categories'>
-      <h4>{{ sidebar.categories.title }}</h4>
-      {% for item in sidebar.categories.list %}
+      <h4>{{ catalog.sidebar.categories.title }}</h4>
+      {% for item in catalog.sidebar.categories.list %}
         <div class='sidebar__categories-item'>
           <input type='checkbox' id='category' name='category_checkbox'>
           <label for='category'>{{ item }}</label>
@@ -10,8 +10,8 @@
       {% endfor %}
 
       <div class='sidebar__format'>
-        <h4>{{ sidebar.format.title }}</h4>
-        {% for item in sidebar.format.list %}
+        <h4>{{ catalog.sidebar.format.title }}</h4>
+        {% for item in catalog.sidebar.format.list %}
           <div class='sidebar__format-item'>
             <input type='radio' name='format_checkbox' id='format'>
             <label for='format'>{{ item }}</label>
@@ -19,8 +19,8 @@
         {% endfor %}
 
         <div class='sidebar__style'>
-          <h4>{{ sidebar.style.title }}</h4>
-          {% for item in sidebar.style.list %}
+          <h4>{{ catalog.sidebar.style.title }}</h4>
+          {% for item in catalog.sidebar.style.list %}
             <div class='sidebar__style-item'>
               <input type='checkbox' name='style_checkbox' id='checkbox'>
               <label for='checkbox'>{{ item }}</label>
@@ -28,7 +28,7 @@
           {% endfor %}
         </div>
 
-        <button type='reset' class='sidebar__reset-button button'>{{ sidebar.reset }}</button>
+        <button type='reset' class='sidebar__reset-button button'>{{ catalog.sidebar.reset }}</button>
       </div>
     </div>
   </form>

@@ -1,8 +1,8 @@
 <section class='pricing'>
-  <span class='pricing__label label'>{{ pricing.label }}</span>
-  <h2 class='pricing__title'>{{ pricing.title }}</h2>
+  <span class='pricing__label label'>{{ index.pricing.label }}</span>
+  <h2 class='pricing__title'>{{ index.pricing.title }}</h2>
   <div class='pricing__list'>
-    {% for plan in pricing_plans %}
+    {% for plan in index.pricing_plans %}
       {% include '..\ui\membership-card.twig' with plan %}
     {% endfor %}
   </div>

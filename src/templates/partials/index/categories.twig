@@ -1,6 +1,6 @@
 <section class='categories'>
   <div class='categories__grid'>
-    {% for item in cards %}
+    {% for item in index.cards %}
       <article class='categories__card'>
         <img src='{{item.src}}' alt='{{item.alt}}'>
         <span class='categories__card-title'>{{ item.title }}</span>
@@ -11,9 +11,9 @@
     {% endfor %}
   </div>
   <div class='categories__details'>
-    <span class='categories__label label'>{{ categories.label }}</span>
-    <h2 class='categories__title'>{{ categories.title }}</h2>
-    <p class='categories__description'>{{ categories.description }}</p>
-    <a href='' class='categories__button button'>{{ categories.button }}</a>
+    <span class='categories__label label'>{{ index.categories.label }}</span>
+    <h2 class='categories__title'>{{ index.categories.title }}</h2>
+    <p class='categories__description'>{{ index.categories.description }}</p>
+    <a href='' class='categories__button button'>{{ index.categories.button }}</a>
   </div>
 </section>

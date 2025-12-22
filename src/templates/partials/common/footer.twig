@@ -3,10 +3,10 @@
     <div class='footer-top__header'>
       <div class='footer-top__details'>
         <img src='' alt='{{footer.logo_alt}}'>
-        <p class='footer-top__description'>{{ footer.description }}</p>
+        <p class='footer-top__description'>{{ common.footer.description }}</p>
       </div>
       <div class='footer-top__nav'>
-        {% for item in footer.nav %}
+        {% for item in common.footer.nav %}
           <span>{{ item.title }}</span>
           <ul>
             {% for link in item.links %}
@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class='footer-top__actions'>
-      {% for item in footer.socials %}
+      {% for item in common.footer.socials %}
         <a href=''><img src='' alt='{{ item.alt }}'></a>
       {% endfor %}
       <form action='/subscribe' method='post'>
@@ -40,7 +40,7 @@
   <div class='footer-bottom'>
     <div class='footer-bottom__legal'>
       <ul>
-        {% for item in footer.legal %}
+        {% for item in common.footer.legal %}
           <a href='{{item.href}}'>
             <li>{{ item.name }}</li>
           </a>
@@ -50,6 +50,6 @@
         {% endfor %}
       </ul>
     </div>
-    <div class='footer-bottom__copyright'>Copyright &copy;{{ footer.copyright }}</div>
+    <div class='footer-bottom__copyright'>Copyright &copy;{{ common.footer.copyright }}</div>
   </div>
 </footer>
