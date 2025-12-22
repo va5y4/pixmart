@@ -1,204 +1,206 @@
 {
-  "hero": {
-    "title1": "Craft Your Success with Our",
-    "highlight": "Digital",
-    "title2": " Assets",
-    "description": "From our inspiring illustrations to dynamic UI/UX kits, elevate your projects with our premium digital design resources.",
-    "shop": "Shop Now",
-    "watch": "Watch About Us",
-    "images": [
+  "index": {
+    "hero": {
+      "title1": "Craft Your Success with Our",
+      "highlight": "Digital",
+      "title2": " Assets",
+      "description": "From our inspiring illustrations to dynamic UI/UX kits, elevate your projects with our premium digital design resources.",
+      "shop": "Shop Now",
+      "watch": "Watch About Us",
+      "images": [
+        {
+          "src": "",
+          "alt": "Hero image"
+        },
+        {
+          "src": "",
+          "alt": "Hero image"
+        },
+        {
+          "src": "",
+          "alt": "Hero image"
+        },
+        {
+          "src": "",
+          "alt": "Hero image"
+        },
+        {
+          "src": "",
+          "alt": "Hero image"
+        }
+      ]
+    },
+    "products": [
       {
+        "href": "",
         "src": "",
-        "alt": "Hero image"
+        "alt": "UI Kits icon",
+        "name": "UI Kits"
       },
       {
+        "href": "",
         "src": "",
-        "alt": "Hero image"
+        "alt": "Social Media icon",
+        "name": "Socia Media"
       },
       {
+        "href": "",
         "src": "",
-        "alt": "Hero image"
+        "alt": "Presentation icon",
+        "name": "Presentation"
       },
       {
+        "href": "",
         "src": "",
-        "alt": "Hero image"
+        "alt": "Fonts icon",
+        "name": "Fonts"
       },
       {
+        "href": "",
         "src": "",
-        "alt": "Hero image"
+        "alt": "Illustrations icon",
+        "name": "Illustrations"
       }
-    ]
-  },
-  "products": [
-    {
-      "href": "",
-      "src": "",
-      "alt": "UI Kits icon",
-      "name": "UI Kits"
-    },
-    {
-      "href": "",
-      "src": "",
-      "alt": "Social Media icon",
-      "name": "Socia Media"
-    },
-    {
-      "href": "",
-      "src": "",
-      "alt": "Presentation icon",
-      "name": "Presentation"
-    },
-    {
-      "href": "",
-      "src": "",
-      "alt": "Fonts icon",
-      "name": "Fonts"
-    },
-    {
-      "href": "",
-      "src": "",
-      "alt": "Illustrations icon",
-      "name": "Illustrations"
-    }
-  ],
-  "cards": [
-    {
-      "src": "",
-      "alt": "Templates icon",
-      "title": "Templates",
-      "description1": "For all needs",
-      "description2": "Modern"
-    },
-    {
-      "src": "",
-      "alt": "App Icons icon",
-      "title": "App Icons",
-      "description1": "High-quality",
-      "description2": "Elegant"
-    },
-    {
-      "src": "",
-      "alt": "Slides icon",
-      "title": "Slides",
-      "description1": "Pitch-ready",
-      "description2": "Creative"
-    },
-    {
-      "src": "",
-      "alt": "Design Tools icon",
-      "title": "Design Tools",
-      "description1": "Easy to use",
-      "description2": "Unique"
-    }
-  ],
-  "categories": {
-    "label": "CATEGORIES",
-    "title": "Discover Assets for Every Projects",
-    "description": "From fonts and icons to mockups and templates, our comprehensive categories ensure that you find exactly what you need to your projects.",
-    "button": "Shop Now"
-  },
-  "trending": {
-    "label": "TRENDING",
-    "title": "Popular Products",
-    "grid": [
+    ],
+    "cards": [
       {
         "src": "",
-        "alt": "Travel Hero image",
-        "trophy": true,
-        "title": "Travel Hero",
+        "alt": "Templates icon",
+        "title": "Templates",
+        "description1": "For all needs",
+        "description2": "Modern"
+      },
+      {
+        "src": "",
+        "alt": "App Icons icon",
+        "title": "App Icons",
+        "description1": "High-quality",
+        "description2": "Elegant"
+      },
+      {
+        "src": "",
+        "alt": "Slides icon",
+        "title": "Slides",
+        "description1": "Pitch-ready",
+        "description2": "Creative"
+      },
+      {
+        "src": "",
+        "alt": "Design Tools icon",
+        "title": "Design Tools",
+        "description1": "Easy to use",
+        "description2": "Unique"
+      }
+    ],
+    "categories": {
+      "label": "CATEGORIES",
+      "title": "Discover Assets for Every Projects",
+      "description": "From fonts and icons to mockups and templates, our comprehensive categories ensure that you find exactly what you need to your projects.",
+      "button": "Shop Now"
+    },
+    "trending": {
+      "label": "TRENDING",
+      "title": "Popular Products",
+      "grid": [
+        {
+          "src": "",
+          "alt": "Travel Hero image",
+          "trophy": true,
+          "title": "Travel Hero",
+          "price": "€29.99",
+          "description1": "Adventure",
+          "description2": "Journey"
+        },
+        {
+          "src": "",
+          "alt": "Healthcare Pro image",
+          "trophy": true,
+          "title": "Healthcare Pro",
+          "price": "€15.99",
+          "description1": "Medical",
+          "description2": "Wellness"
+        },
+        {
+          "src": "",
+          "alt": "Foodish Delight image",
+          "trophy": false,
+          "title": "Foodish Delight",
+          "price": "€31.99",
+          "description1": "Catering",
+          "description2": "Food"
+        },
+        {
+          "src": "",
+          "alt": "Real Estate image",
+          "trophy": false,
+          "title": "Real Estate",
+          "price": "€40.99",
+          "description1": "Modern",
+          "description2": "Homes"
+        }
+      ]
+    },
+    "pricing_plans": [
+      {
+        "is_bestseller": false,
+        "title": "Standard Membership",
+        "price": "€14.99",
+        "benefits": [
+          "Enhanced Resource Access",
+          "Monthly Credits",
+          "Priority Customer Support",
+          "Community Features Access"
+        ]
+      },
+      {
+        "is_bestseller": true,
+        "title": "Plus Membership",
         "price": "€29.99",
-        "description1": "Adventure",
-        "description2": "Journey"
+        "benefits": [
+          "All Standard Benefits",
+          "Increased Monthly Credits",
+          "Early Access to New Releases",
+          "Member-Only Offers"
+        ]
       },
       {
-        "src": "",
-        "alt": "Healthcare Pro image",
-        "trophy": true,
-        "title": "Healthcare Pro",
-        "price": "€15.99",
-        "description1": "Medical",
-        "description2": "Wellness"
-      },
-      {
-        "src": "",
-        "alt": "Foodish Delight image",
-        "trophy": false,
-        "title": "Foodish Delight",
-        "price": "€31.99",
-        "description1": "Catering",
-        "description2": "Food"
-      },
-      {
-        "src": "",
-        "alt": "Real Estate image",
-        "trophy": false,
-        "title": "Real Estate",
-        "price": "€40.99",
-        "description1": "Modern",
-        "description2": "Homes"
+        "is_bestseller": false,
+        "title": "Pro Membership",
+        "price": "€49.99",
+        "benefits": [
+          "All Plus Benefits",
+          "Unlimited Downloads",
+          "Custom Licensing",
+          "Direct Creator Collaboration"
+        ]
       }
-    ]
-  },
-  "pricing_plans": [
-    {
-      "is_bestseller": false,
-      "title": "Standard Membership",
-      "price": "€14.99",
-      "benefits": [
-        "Enhanced Resource Access",
-        "Monthly Credits",
-        "Priority Customer Support",
-        "Community Features Access"
-      ]
+    ],
+    "pricing": {
+      "label": "PRICING",
+      "title": "Choose The Perfect Plan for Creative Potential"
     },
-    {
-      "is_bestseller": true,
-      "title": "Plus Membership",
-      "price": "€29.99",
-      "benefits": [
-        "All Standard Benefits",
-        "Increased Monthly Credits",
-        "Early Access to New Releases",
-        "Member-Only Offers"
-      ]
-    },
-    {
-      "is_bestseller": false,
-      "title": "Pro Membership",
-      "price": "€49.99",
-      "benefits": [
-        "All Plus Benefits",
-        "Unlimited Downloads",
-        "Custom Licensing",
-        "Direct Creator Collaboration"
-      ]
+    "faq_list": [
+      {
+        "question": "Can I request a refund?"
+      },
+      {
+        "question": "How do I access my purchased products?",
+        "answer": "Accessing your purchased products is seamless and hassle-free on our digital design assets marketplace. Simply log in to your account, navigate to the 'My Purchases' section, and you'll find all your purchased products ready for download."
+      },
+      {
+        "question": "Are there any discounts for bulk purchases?"
+      },
+      {
+        "question": "What payment methods do you accept here?"
+      },
+      {
+        "question": "Can I sell my digital products on this marketplace?"
+      }
+    ],
+    "faq": {
+      "label": "FAQ",
+      "title": "Answers to Your Questions",
+      "button": "Ask Us A Question"
     }
-  ],
-  "pricing": {
-    "label": "PRICING",
-    "title": "Choose The Perfect Plan for Creative Potential"
-  },
-  "faq_list": [
-    {
-      "question": "Can I request a refund?"
-    },
-    {
-      "question": "How do I access my purchased products?",
-      "answer": "Accessing your purchased products is seamless and hassle-free on our digital design assets marketplace. Simply log in to your account, navigate to the 'My Purchases' section, and you'll find all your purchased products ready for download."
-    },
-    {
-      "question": "Are there any discounts for bulk purchases?"
-    },
-    {
-      "question": "What payment methods do you accept here?"
-    },
-    {
-      "question": "Can I sell my digital products on this marketplace?"
-    }
-  ],
-  "faq": {
-    "label": "FAQ",
-    "title": "Answers to Your Questions",
-    "button": "Ask Us A Question"
   }
 }

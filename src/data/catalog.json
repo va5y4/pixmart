@@ -1,42 +1,44 @@
 {
-  "hero": {
-    "title_prefix": "Explore Top",
-    "title_highlight": "UI Kits",
-    "title_suffix": "Design Assets"
-  },
-  "sidebar": {
-    "reset": "Clear All Filters",
-    "categories": {
-      "title": "Categories",
-      "list": [
-        "All Categories",
-        "Technology",
-        "Travel & Tourism",
-        "Health & Fitness",
-        "E-Commerce",
-        "Education",
-        "Entertainment",
-        "Others",
-        "Others"
-      ]
+  "catalog": {
+    "hero": {
+      "title_prefix": "Explore Top",
+      "title_highlight": "UI Kits",
+      "title_suffix": "Design Assets"
     },
-    "format": {
-      "title": "Format Type",
-      "list": [
-        "Figma",
-        "Sketch",
-        "Adobe XD",
-        "Adobe Photoshop",
-        "Adobe Illustration"
-      ]
+    "sidebar": {
+      "reset": "Clear All Filters",
+      "categories": {
+        "title": "Categories",
+        "list": [
+          "All Categories",
+          "Technology",
+          "Travel & Tourism",
+          "Health & Fitness",
+          "E-Commerce",
+          "Education",
+          "Entertainment",
+          "Others",
+          "Others"
+        ]
+      },
+      "format": {
+        "title": "Format Type",
+        "list": [
+          "Figma",
+          "Sketch",
+          "Adobe XD",
+          "Adobe Photoshop",
+          "Adobe Illustration"
+        ]
+      },
+      "style": {
+        "title": "Style",
+        "list": ["Minimalist", "Modern", "Playful", "Dark Mode", "Photocentric"]
+      }
     },
-    "style": {
-      "title": "Style",
-      "list": ["Minimalist", "Modern", "Playful", "Dark Mode", "Photocentric"]
+    "sort": {
+      "list": ["Best Seller"],
+      "tags": ["UI Kit", "UI Kit"]
     }
-  },
-  "sort": {
-    "list": ["Best Seller"],
-    "tags": ["UI Kit", "UI Kit"]
   }
 }

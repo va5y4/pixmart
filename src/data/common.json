@@ -1,151 +1,153 @@
 {
-  "head": {
-    "title": "Pixmart",
-    "description": "Your premium digital assets solution with high quality and comprehensive range of products and services."
-  },
-  "nav": [
-    {
-      "title": "About",
-      "url": "/about"
+  "common": {
+    "head": {
+      "title": "Pixmart",
+      "description": "Your premium digital assets solution with high quality and comprehensive range of products and services."
     },
-    {
-      "title": "Products",
-      "url": "/products"
-    },
-    {
-      "title": "Creators",
-      "url": "/creators"
-    },
-    {
-      "title": "Blog",
-      "url": "/blog"
-    },
-    {
-      "title": "Contact",
-      "url": "/contact"
-    }
-  ],
-  "cart": {
-    "alt": "Alt icon"
-  },
-  "footer": {
-    "description": "Your premium digital assets solution with high quality and comprehensive range of products and services.",
-    "logo_alt": "Pixmart logo",
-    "newsletter_title": "Subscribe to <br> Design Newsletter",
-    "socials": [
-      {
-        "alt": "Twitter icon"
-      },
-      {
-        "alt": "Facebook icon"
-      },
-      {
-        "alt": "Telegram icon"
-      }
-    ],
     "nav": [
       {
-        "title": "Company",
-        "links": [
-          {
-            "label": "Homepage v1",
-            "url": "/homepage"
-          },
-          {
-            "label": "Homepage v2",
-            "url": "/homepage-v2"
-          },
-          {
-            "label": "Homepage v3",
-            "url": "/homepage-v3"
-          },
-          {
-            "label": "About Us",
-            "url": "/about-us"
-          },
-          {
-            "label": "About Us",
-            "url": "/about-us"
-          },
-          {
-            "label": "Blog Articles",
-            "url": "/blog-articles"
-          }
-        ]
+        "title": "About",
+        "url": "/about"
       },
       {
         "title": "Products",
-        "links": [
-          {
-            "label": "Website",
-            "url": "/website"
-          },
-          {
-            "label": "Mobile App",
-            "url": "/mobile-app"
-          },
-          {
-            "label": "Social Media Feeds",
-            "url": "/social-media-feeds "
-          },
-          {
-            "label": "Presentation",
-            "url": "presentation"
-          },
-          {
-            "label": "Product Mockups",
-            "url": "/products-mockups"
-          },
-          {
-            "label": "Illustrations",
-            "url": "/illustrations"
-          }
-        ]
+        "url": "/products"
       },
       {
-        "title": "Account",
-        "links": [
-          {
-            "label": "Your Cart",
-            "url": "/your-cart"
-          },
-          {
-            "label": "Check Out",
-            "url": "/check-out"
-          },
-          {
-            "label": "Refund Policy",
-            "url": "/refund-policy"
-          },
-          {
-            "label": "Company Policy",
-            "url": "/company-policy"
-          },
-          {
-            "label": "Send A Message",
-            "url": "/send-a-message"
-          },
-          {
-            "label": "Customer Support",
-            "url": "/customer-support"
-          }
-        ]
+        "title": "Creators",
+        "url": "/creators"
+      },
+      {
+        "title": "Blog",
+        "url": "/blog"
+      },
+      {
+        "title": "Contact",
+        "url": "/contact"
       }
     ],
-    "legal": [
-      {
-        "name": "Privacy Policy",
-        "href": ""
-      },
-      {
-        "name": "Terms and Condition",
-        "href": ""
-      },
-      {
-        "name": "Site Map",
-        "href": ""
-      }
-    ],
-    "copyright": " 2024 Pixmart. All rights reserved."
+    "cart": {
+      "alt": "Alt icon"
+    },
+    "footer": {
+      "description": "Your premium digital assets solution with high quality and comprehensive range of products and services.",
+      "logo_alt": "Pixmart logo",
+      "newsletter_title": "Subscribe to <br> Design Newsletter",
+      "socials": [
+        {
+          "alt": "Twitter icon"
+        },
+        {
+          "alt": "Facebook icon"
+        },
+        {
+          "alt": "Telegram icon"
+        }
+      ],
+      "nav": [
+        {
+          "title": "Company",
+          "links": [
+            {
+              "label": "Homepage v1",
+              "url": "/homepage"
+            },
+            {
+              "label": "Homepage v2",
+              "url": "/homepage-v2"
+            },
+            {
+              "label": "Homepage v3",
+              "url": "/homepage-v3"
+            },
+            {
+              "label": "About Us",
+              "url": "/about-us"
+            },
+            {
+              "label": "About Us",
+              "url": "/about-us"
+            },
+            {
+              "label": "Blog Articles",
+              "url": "/blog-articles"
+            }
+          ]
+        },
+        {
+          "title": "Products",
+          "links": [
+            {
+              "label": "Website",
+              "url": "/website"
+            },
+            {
+              "label": "Mobile App",
+              "url": "/mobile-app"
+            },
+            {
+              "label": "Social Media Feeds",
+              "url": "/social-media-feeds "
+            },
+            {
+              "label": "Presentation",
+              "url": "presentation"
+            },
+            {
+              "label": "Product Mockups",
+              "url": "/products-mockups"
+            },
+            {
+              "label": "Illustrations",
+              "url": "/illustrations"
+            }
+          ]
+        },
+        {
+          "title": "Account",
+          "links": [
+            {
+              "label": "Your Cart",
+              "url": "/your-cart"
+            },
+            {
+              "label": "Check Out",
+              "url": "/check-out"
+            },
+            {
+              "label": "Refund Policy",
+              "url": "/refund-policy"
+            },
+            {
+              "label": "Company Policy",
+              "url": "/company-policy"
+            },
+            {
+              "label": "Send A Message",
+              "url": "/send-a-message"
+            },
+            {
+              "label": "Customer Support",
+              "url": "/customer-support"
+            }
+          ]
+        }
+      ],
+      "legal": [
+        {
+          "name": "Privacy Policy",
+          "href": ""
+        },
+        {
+          "name": "Terms and Condition",
+          "href": ""
+        },
+        {
+          "name": "Site Map",
+          "href": ""
+        }
+      ],
+      "copyright": " 2024 Pixmart. All rights reserved."
+    }
   }
 }
