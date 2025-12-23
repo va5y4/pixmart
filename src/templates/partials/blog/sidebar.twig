@@ -1,0 +1,23 @@
+<aside class='sidebar'>
+  {% include '..\ui\author.twig' with { 'author': blog.author } %}
+
+  <div class='sidebar__categories'>
+    <h4 class='sidebar__categories-title'>{{ blog.categories_title }}</h4>
+    <ul class='sidebar__categories-list'>
+      {% for item in blog.categories %}
+        <li class='sidebar__categories-item'>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class='sidebar__articles'>
+    <h4 class='sidebar__articles-title'>{{ blog.articles.title }}</h4>
+    {% for item in blog.articles.list %}
+      <span>{{ item.heading }}</span>
+      <time class='sidebar__articles-date' datetime='{{ item.datetime }}'>{{ item.date }}</time>
+      {% if not loop.last %}
+        <hr class='sidebar__articles-separator'>
+      {% endif %}
+    {% endfor %}
+  </div>
+</aside>

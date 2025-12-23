@@ -1,0 +1,25 @@
+<article class='article'>
+  <p class='article__paragraph'>
+    {{ blog.article.paragraph }}
+  </p>
+  <ol class='article__list'>
+    {% for item in blog.article.list %}
+      <li class='article__item'>
+        {{ item.title }}
+        <p>{{ item.paragraph }}</p>
+      </li>
+      {% if loop.index == 2 %}
+        <figure>
+          <img src='{{blog.article.figure.src}}' alt='{{blog.article.figure.alt}}'>
+          <figcaption>{{ blog.article.figure.caption }}</figcaption>
+          <a href=''>{{ blog.article.figure.link }}</a>
+        </figure>
+      {% endif %}
+    {% endfor %}
+  </ol>
+  <div class='article__quote'>
+    <img src='' alt=''>
+    <span>{{ blog.article.quote }}</span>
+  </div>
+  <p class='article__epilog'>{{ blog.article.epilog }}</p>
+</article>
