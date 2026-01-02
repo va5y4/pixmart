@@ -1,0 +1,45 @@
+{
+  "contact": {
+    "hero": {
+      "label": "CONTACT",
+      "title": "Get in Touch <br> with Us",
+      "description": "We are here to help you navigate your creative journey. Reach out for any questions, support, or feedback.",
+      "button": "Shop Now"
+    },
+    "info": [
+      {
+        "src": "",
+        "alt": "Phone icon",
+        "data": "+1 (555) 123-4567"
+      },
+      {
+        "src": "",
+        "alt": "Email icon",
+        "data": "support@pixelmart.com"
+      },
+      {
+        "src": "",
+        "alt": "Clock icon",
+        "data": "Monday to Friday : 9 AM - 5 PM EST"
+      }
+    ],
+    "map": {
+      "image_alt": "Map image",
+      "icon_alt": "Map icon",
+      "name": "PixMart HQ",
+      "address": "123 Creative Ave, Design City, 45678"
+    },
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "option": "General Inquiry",
+      "checkboxes": [
+        "Subscribe me to Newsletter",
+        "I have read the User & Privacy Policy"
+      ],
+      "message": "Message",
+      "button": "Send Message"
+    }
+  }
+}
