@@ -3,7 +3,7 @@
 ## 👤 Project Info
 
 - Student: Vasilis Moysidis
-- Aim: Translating Figma design into responsive website
+- Aim: Translating a Figma design into a responsive website
 
 ## 📁 Structure
 
