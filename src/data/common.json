@@ -6,16 +6,12 @@
     },
     "nav": [
       {
-        "title": "About",
+        "title": "Home",
         "url": "/"
       },
       {
-        "title": "Products",
+        "title": "Catalog",
         "url": "/catalog"
-      },
-      {
-        "title": "Creators",
-        "url": "/creators"
       },
       {
         "title": "Blog",

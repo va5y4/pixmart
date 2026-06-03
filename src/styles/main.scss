@@ -1,4 +1,5 @@
 /* Main styles */
+@import 'variables';
 :root {
   --primary-color: #3498db;
   --secondary-color: #2ecc71;
@@ -8,7 +9,7 @@
 }
 
 body {
-  font-family: "Arial", sans-serif;
+  font-family: var(--font-main);
   color: var(--text-color);
   background-color: var(--background-color);
   margin: 0;
