@@ -1,0 +1,33 @@
+.header {
+
+    &__container {
+        background-color: var(--bg-base);
+        box-shadow: var(--shadow-header);
+        padding: 24px 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        display: flex;
+        gap: 32px;
+    }
+
+    &__nav {
+        display: flex;
+
+    }
+
+    &__menu {
+        display: flex;
+        gap: 8px;
+    }
+
+    &__menu-item {
+        display: flex;
+        flex-direction: column;
+        height: 32px;
+        padding: 6px 12px;
+        gap: 8px;
+    }
+}

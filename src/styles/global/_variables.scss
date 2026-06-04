@@ -102,6 +102,45 @@
 
 
   //Typography
-  --font-header: 'Plus Jakarta Sans', sans-serif;
-  --font-main: 'Libre Franklin', sans-serif;
+  --font-family-header: 'Plus Jakarta Sans', sans-serif;
+  --font-family-main: 'Libre Franklin', sans-serif;
+  --font-size-h1: 52px;
+  --font-size-h2: 36px;
+  --font-size-h3: 28px;
+  --font-size-h4: 24px;
+  --font-size-h5: 20px;
+  --line-height-h1: 62px;
+  --line-height-h2: 48px;
+  --line-height-h3: 36px;
+  --line-height-h4: 32px;
+  --line-height-h5: 26px;
+  --letter-spacing: -0.5px;
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-size-s1: 52px;
+  --font-size-s2: 36px;
+  --font-size-s3: 28px;
+  --font-size-s4: 24px;
+  --font-size-s5: 20px;
+  --line-height-s1: 62px;
+  --line-height-s2: 48px;
+  --line-height-s3: 40px;
+  --line-hegight-s4: 32px;
+  --line-height-s5: 28px;
+  --font-size-p1: 18px;
+  --font-size-p2: 16px;
+  --font-size-p3: 14px;
+  --font-size-p4: 12px;
+  --font-size-p5: 11px;
+  --line-height-p1: 28px;
+  --line-height-p2: 24px;
+  --line-height-p3: 20px;
+  --line-height-p4: 16px;
+  --line-height-p5: 16px;
+
+
+  //Shadows
+  --shadow-header: 0px 4px 40px 0px rgba(29, 57, 95, 0.02)
 }

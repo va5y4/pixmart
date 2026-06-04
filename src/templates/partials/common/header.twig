@@ -1,21 +1,25 @@
 <header class='header'>
-  <a href='/' class='header__logo'>
-    <img src='' alt='Pixmart logo'>
-  </a>
-  <nav aria-label='Main navigation'>
-    <ul class='header__nav'>
-      {% for item in common.nav %}
-        <li>
-          <a href='{{ item.url }}'>{{ item.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </nav>
-  <form role='search' class='header__search' aria-label='Site search' autocomplete='off'>
-    <label for='search' class='visually-hidden'>Search</label>
-    <input type='text' id='search' name='search' placeholder='Search...'>
-  </form>
-  <button type='button' class='header__cart cart' aria-label='Cart'>
-    <img src='' alt='{{common.cart.alt}}'>
-  </button>
+  <div class='container header__container'>
+    <div class='header__left'>
+      <a href='/' class='header__logo'>
+        <img src='' alt='Pixmart logo'>
+      </a>
+      <nav class='header__nav'>
+        <ul class='header__menu'>
+          {% for item in common.nav %}
+            <li class='header__menu-item'>
+              <a href='{{ item.url }}'>{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+    <form role='search' class='header__search' aria-label='Site search' autocomplete='off'>
+      <label for='search' class='visually-hidden'>Search</label>
+      <input type='text' id='search' name='search' placeholder='Search...'>
+    </form>
+    <button type='button' class='header__cart cart' aria-label='Cart'>
+      <img src='' alt='{{common.cart.alt}}'>
+    </button>
+  </div>
 </header>
