@@ -30,4 +30,17 @@
         padding: 6px 12px;
         gap: 8px;
     }
+
+    &__right {
+        display: flex;
+        gap: 8px;
+    }
+
+    &__search-input {
+        padding: 10px 12px;
+        border: 1px solid var(--elements-seporatorbold);
+        border-radius: 8px;
+        background-color: var(--bg-base);
+        width: 240px;
+    }
 }
