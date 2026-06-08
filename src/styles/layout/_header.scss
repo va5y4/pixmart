@@ -1,3 +1,5 @@
+@import '../global/mixins';
+
 .header {
 
     &__container {
@@ -6,6 +8,7 @@
         padding: 24px 80px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     &__left {
@@ -26,9 +29,10 @@
     &__menu-item {
         display: flex;
         flex-direction: column;
-        height: 32px;
         padding: 6px 12px;
         gap: 8px;
+        color: var(--text-primary);
+        @include l3;
     }
 
     &__right {
@@ -42,5 +46,18 @@
         border-radius: 8px;
         background-color: var(--bg-base);
         width: 240px;
+    }
+
+    &__logo {
+        align-self: center;
+    }
+
+    &__cart {
+        width: 40px;
+    }
+
+    &__cart-icon {
+        // width: 24px;
+        // height: 24px;
     }
 }
