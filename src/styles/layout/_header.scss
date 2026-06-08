@@ -1,4 +1,4 @@
-@import '../global/mixins';
+@use '../global/mixins';
 
 .header {
 
@@ -32,12 +32,14 @@
         padding: 6px 12px;
         gap: 8px;
         color: var(--text-primary);
-        @include l3;
+        @include mixins.l3;
     }
 
     &__right {
         display: flex;
         gap: 8px;
+        height: 44px;
+        align-items: center;
     }
 
     &__search-input {
@@ -54,5 +56,6 @@
 
     &__cart {
         width: 40px;
+        height: 40px;
     }
 }

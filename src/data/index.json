@@ -1,9 +1,11 @@
 {
   "index": {
     "hero": {
-      "title1": "Craft Your Success with Our",
+      "title1": "Craft Your ",
+      "title2": "Success with",
+      "title3": "Our",
       "highlight": "Digital",
-      "title2": " Assets",
+      "title4": " Assets",
       "description": "From our inspiring illustrations to dynamic UI/UX kits, elevate your projects with our premium digital design resources.",
       "shop": "Shop Now",
       "watch": "Watch About Us",

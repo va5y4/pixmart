@@ -1,17 +1,23 @@
 <section class='hero'>
-  <div class='hero__details'>
-    <h1 class='hero__title'>
-      {{ index.hero.title1 }}
-      <span class='hero__highlight highlight'>{{ index.hero.highlight }}</span>
-      {{ index.hero.title2 }}
-    </h1>
-    <p class='hero__description'>{{ index.hero.description }}</p>
-    <a class='hero__shop-button button' href=''>{{ index.hero.shop }}</a>
-    <a class='hero__watch-button button' href=''><img src='' alt='watch about us icon'>{{ index.hero.watch }}</a>
-  </div>
-  <div class='hero__images'>
-    {% for item in index.hero.images %}
-      <img src='{{item.src}}' alt='{{item.alt}}'>
-    {% endfor %}
+  <div class='hero__container'>
+    <div class='hero__details'>
+      <h1 class='hero__title'>
+        {{ index.hero.title1 }}
+        <br>
+        {{ index.hero.title2 }}
+        <br>
+        {{ index.hero.title3 }}
+        <span class='hero__highlight highlight'>{{ index.hero.highlight }}</span>
+        {{ index.hero.title4 }}
+      </h1>
+      <p class='hero__description'>{{ index.hero.description }}</p>
+      <a class='hero__shop-button button' href=''>{{ index.hero.shop }}</a>
+      <a class='hero__watch-button button' href=''><img src='' alt='watch about us icon'>{{ index.hero.watch }}</a>
+    </div>
+    <div class='hero__images'>
+      {% for item in index.hero.images %}
+        <img src='{{item.src}}' alt='{{item.alt}}'>
+      {% endfor %}
+    </div>
   </div>
 </section>

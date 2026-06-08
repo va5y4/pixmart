@@ -1,6 +1,14 @@
 @mixin l3 {
     font-family: var(--font-family-main);
     font-weight: var(--font-weight-semibold);
-    font-size: 14px;
-    line-height: 20px;
+    font-size: var(--font-size-l3);
+    line-height: var(--line-height-l3);
+}
+
+@mixin h1 {
+    font-family: var(--font-family-header);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-h1);
+    line-height: var(--line-height-h1);
+    letter-spacing: var(--letter-spacing);
 }

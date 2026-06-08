@@ -1,0 +1,17 @@
+.hero {
+
+    &__container {
+        padding: 120px 80px;
+        gap: 36px;
+        display: flex;
+        background: linear-gradient(90deg, rgba(240, 246, 253, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    }
+
+    &__details {
+        min-width: 300px;
+        max-width: 520px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+}
