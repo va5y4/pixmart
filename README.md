@@ -7,7 +7,8 @@ Translating a Figma design into a responsive website line by line.
 ## 🛠️ Tech Stack
 
 - **Templating:** Twig
-- **Styling:** SCSS (Sass)
+- **Styling:** SCSS
+- **Database:** JSON
 - **Build Tool:** npm
 
 ---
