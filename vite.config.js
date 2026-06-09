@@ -10,6 +10,14 @@ import svgSprite from '@bro-academy/vite-plugin-svg-sprite';
 export default defineConfig({
   build: {
     assetsInlineLimit: 0,
+    rollupOptions: {
+      input: [
+        'src/pages/index.twig.html',
+        'src/pages/blog.twig.html',
+        'src/pages/catalog.twig.html',
+        'src/pages/contact.twig.html',
+      ],
+    },
   },
   plugins: [
     svgSprite(),
