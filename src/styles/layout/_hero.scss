@@ -38,4 +38,9 @@
         @include mixins.l1;
         gap: 8px;
     }
+
+    &__image1 {
+        object-fit: cover;
+
+    }
 }

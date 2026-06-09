@@ -20,7 +20,7 @@
     </div>
     <div class='hero__images'>
       {% for item in index.hero.images %}
-        <img src='{{item.src}}' alt='{{item.alt}}'>
+        <img class='hero__{{item.class}}' src='{{item.src}}' alt='{{item.alt}}'>
       {% endfor %}
     </div>
   </div>

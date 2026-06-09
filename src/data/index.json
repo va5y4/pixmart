@@ -11,7 +11,8 @@
       "watch": "Watch About Us",
       "images": [
         {
-          "src": "",
+          "class": "image1",
+          "src": "src/assets/images/hero-image1.png",
           "alt": "Hero image"
         },
         {
