@@ -12,3 +12,18 @@
     line-height: var(--line-height-h1);
     letter-spacing: var(--letter-spacing);
 }
+
+@mixin s5 {
+    font-family: var(--font-family-header);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-s5);
+    line-height: var(--line-height-s5);
+    color: var(--text-secondary);
+}
+
+@mixin l1 {
+    font-family: var(--font-family-main);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-l1);
+    line-height: var(--line-height-l1);
+}

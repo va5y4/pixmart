@@ -1,5 +1,10 @@
-button {
+@use '../global/mixins';
+
+.button {
+    color: var(--primary-white);
     background-color: var(--marina800);
     border: none;
     border-radius: 8px;
+    color: var(--primary-white) !important;
+    @include mixins.l1;
 }

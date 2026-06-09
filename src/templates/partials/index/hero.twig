@@ -11,8 +11,12 @@
         {{ index.hero.title4 }}
       </h1>
       <p class='hero__description'>{{ index.hero.description }}</p>
-      <a class='hero__shop-button button' href=''>{{ index.hero.shop }}</a>
-      <a class='hero__watch-button button' href=''><img src='' alt='watch about us icon'>{{ index.hero.watch }}</a>
+      <div class='hero__actions'>
+        <a class='hero__shop-button button' href='#test'>{{ index.hero.shop }}</a>
+        <a class='hero__watch-button link' href='#test'
+          ><img src='src\assets\icons\cursor.svg' alt='watch about us icon'>{{ index.hero.watch }}
+        </a>
+      </div>
     </div>
     <div class='hero__images'>
       {% for item in index.hero.images %}
