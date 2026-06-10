@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npx forever --no-daemon --plain -c \"npm run dev\" .",
     "dev": "vite dev",
-    "build": "vite build && node scripts/copy-assets.cjs && node scripts/compile-scss.cjs",
+    "build": "vite build",
     "preview": "vite preview",
     "lint": "npx eslint .",
     "lint:fix": "npx eslint . --fix",
