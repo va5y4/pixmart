@@ -17,7 +17,7 @@ Translating a Figma design into a responsive website.
 
 | Directory        | Description                                    |
 | :--------------- | :--------------------------------------------- |
-| `src/assets/`    | Project images and SVG icons                   |
+| `public/assets/` | Static images and icons served by Vite in dev  |
 | `src/styles/`    | Global, layout, and component SCSS stylesheets |
 | `src/templates/` | Twig layout and partial templates              |
 | `src/data/`      | JSON data files                                |
@@ -26,7 +26,8 @@ Translating a Figma design into a responsive website.
 
 ## 🚀 Key Commands
 
-- `npm run dev` — Run development server
+- `npm run dev` — Run development server with Vite
 - `npm run build` — Build for production
+- `npm run preview` — Preview the production build
 - `npm run lint:fix` — Fix HTML and SCSS linting issues
 - `npm run format` — Format all code
