@@ -41,7 +41,10 @@
 
     &__image1 {
         object-fit: cover;
-
+        object-position: left;
+        width: 281px;
+        height: 422px;
+        border-radius: 10px;
     }
 
     &__images {
