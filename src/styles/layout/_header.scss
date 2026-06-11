@@ -47,7 +47,7 @@
         border: 1px solid var(--elements-seporatorbold);
         border-radius: 8px;
         background-color: var(--bg-base);
-        width: 240px;
+        max-width: 240px;
     }
 
     &__logo {
@@ -57,5 +57,27 @@
     &__cart {
         width: 40px;
         height: 40px;
+    }
+
+    //tablet
+    @media (max-width: 1024px) {
+        &__container {
+            padding: 24px 40px;
+        }
+    }
+
+    //mobile
+    @media (max-width: 440px) {
+        &__menu {
+            display: none;
+        }
+
+        &__search {
+            display: none;
+        }
+
+        &__container {
+            padding: 24px 16px;
+        }
     }
 }

@@ -47,6 +47,16 @@
         border-radius: 10px;
     }
 
+    /*tablet*/
+    @media (max-width: 1024px) {
+        &__image1 {
+            width: 199px;
+            height: 300px;
+            object-position: 117%;
+        }
+
+    }
+
     &__images {
         width: 624px;
         height: 544px;
