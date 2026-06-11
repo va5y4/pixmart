@@ -61,6 +61,7 @@
 
     &__burger {
         display: none;
+        cursor: pointer;
     }
 
     &__burger-bar {
@@ -68,6 +69,21 @@
         height: 2px;
         background-color: var(--text-primary-invert);
         border-radius: 2px;
+        align-self: center;
+        transition: transform 0.3s ease, opacity 0.3s ease, top 0.3s ease;
+        position: absolute;
+    }
+
+    &__burger-bar:nth-child(1) {
+        top: 39px;
+    }
+
+    &__burger-bar:nth-child(2) {
+        top: 45px;
+    }
+
+    &__burger-bar:nth-child(3) {
+        top: 50px;
     }
 
     //tablet
@@ -101,6 +117,20 @@
             flex-direction: column;
             gap: 2px;
             justify-content: center;
+            width: 40px;
+            height: 40px;
+        }
+
+        &__burger.active &__burger-bar:nth-child(1) {
+            transform: translateY(5px) rotate(45deg);
+        }
+
+        &__burger.active &__burger-bar:nth-child(2) {
+            opacity: 0;
+        }
+
+        &__burger.active &__burger-bar:nth-child(3) {
+            transform: translateY(-6px) rotate(-45deg);
         }
     }
 }

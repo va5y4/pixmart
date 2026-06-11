@@ -10,7 +10,7 @@
         <img src='/assets/icons/logo.svg' alt='Pixmart logo'>
       </a>
       <nav class='header__nav'>
-        <ul class='header__menu'>
+        <ul class='header__menu' id='nav-links'>
           {% for item in common.nav %}
             <li class='header__menu-item'>
               <a href='{{ item.url }}'>{{ item.title }}</a>
