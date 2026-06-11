@@ -3,9 +3,16 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: var(--font-family-main);
     color: var(--text-primary);
     background-color: var(--bg-base);
+
+    html.no-scroll,
+    body.no-scroll {
+        overflow: hidden !important;
+        height: 100% !important;
+    }
 }
 
 .visually-hidden {
