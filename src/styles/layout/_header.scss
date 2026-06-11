@@ -59,6 +59,17 @@
         height: 40px;
     }
 
+    &__burger {
+        display: none;
+    }
+
+    &__burger-bar {
+        width: 18px;
+        height: 2px;
+        background-color: var(--text-primary-invert);
+        border-radius: 2px;
+    }
+
     //tablet
     @media (max-width: 1024px) {
         &__container {
@@ -70,6 +81,11 @@
     @media (max-width: 440px) {
         &__menu {
             display: none;
+            flex-direction: column;
+        }
+
+        &__menu.active {
+            display: flex;
         }
 
         &__search {
@@ -78,6 +94,13 @@
 
         &__container {
             padding: 24px 16px;
+        }
+
+        &__burger {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            justify-content: center;
         }
     }
 }
