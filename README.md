@@ -17,7 +17,7 @@ Translating a Figma design into a responsive website.
 
 | Directory        | Description                                    |
 | :--------------- | :--------------------------------------------- |
-| `public/assets/` | Static images and icons served by Vite in dev  |
+| `src/assets/`    | Static images and icons served by Vite in dev  |
 | `src/styles/`    | Global, layout, and component SCSS stylesheets |
 | `src/templates/` | Twig layout and partial templates              |
 | `src/data/`      | JSON data files                                |

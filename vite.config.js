@@ -25,6 +25,6 @@ export default defineConfig({
     twig(),
     nunjucks(),
     postcss(),
-    imageOptimizer(),
+    // imageOptimizer() removed temporarily to avoid copyfile errors during build
   ],
 });

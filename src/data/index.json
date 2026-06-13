@@ -12,7 +12,7 @@
       "images": [
         {
           "class": "image1",
-          "src": "/assets/images/hero-image1.webp",
+          "src": "/src/assets/images/hero-image1.webp",
           "alt": "Hero image"
         },
         {
