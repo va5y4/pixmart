@@ -1,0 +1,88 @@
+@use '../global/mixins';
+
+.products {
+    padding: 56px 72px;
+    background-color: var(--bg-base);
+
+    ul {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+        overflow-x: auto;
+    }
+
+    li {
+        flex: 1;
+        min-width: 120px;
+    }
+
+    a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        padding: 18px 14px;
+        border-radius: 16px;
+        text-align: center;
+        @include mixins.l3;
+        color: var(--text-primary);
+        font-size: 22px;
+        line-height: 30px;
+        transition: background-color 0.15s ease, color 0.15s ease;
+
+        &:hover {
+            background-color: var(--bg-alternative);
+            color: var(--elements-accent-link);
+        }
+
+        img {
+            width: 104px;
+            height: 104px;
+            padding: 20px;
+            border-radius: 12px;
+            background-color: var(--bg-alternative);
+            object-fit: contain;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        padding: 48px 32px;
+
+        ul {
+            gap: 12px;
+        }
+
+        a {
+            font-size: 18px;
+            line-height: 24px;
+
+            img {
+                width: 86px;
+                height: 86px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        padding: 40px 16px;
+
+        ul {
+            gap: 8px;
+        }
+
+        a {
+            font-size: 14px;
+            padding: 12px 8px;
+
+            img {
+                width: 70px;
+                height: 70px;
+                padding: 14px;
+            }
+        }
+    }
+}

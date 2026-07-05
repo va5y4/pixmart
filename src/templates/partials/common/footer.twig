@@ -2,28 +2,30 @@
   <div class='footer-top'>
     <div class='footer-top__header'>
       <div class='footer-top__details'>
-        <img src='' alt='{{common.footer.logo_alt}}'>
+        <img src='/src/assets/icons/logo.svg' alt='{{common.footer.logo_alt}}'>
         <p class='footer-top__description'>{{ common.footer.description }}</p>
       </div>
       <div class='footer-top__nav'>
         {% for item in common.footer.nav %}
-          <span>{{ item.title }}</span>
-          <ul>
-            {% for link in item.links %}
-              <li>
-                <a href='{{ link.url }}'>{{ link.label }}</a>
-              </li>
-            {% endfor %}
-          </ul>
+          <div class='footer-top__column'>
+            <span>{{ item.title }}</span>
+            <ul>
+              {% for link in item.links %}
+                <li>
+                  <a href='{{ link.url }}'>{{ link.label }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
         {% endfor %}
       </div>
     </div>
     <div class='footer-top__actions'>
       {% for item in common.footer.socials %}
-        <a href=''><img src='' alt='{{ item.alt }}'></a>
+        <a href='#' aria-label='{{ item.alt }}'><img src='{{ item.src }}' alt='{{ item.alt }}'></a>
       {% endfor %}
       <form action='/subscribe' method='post'>
-        <span>{{ footer.newsletter_title }}</span>
+        <span>{{ common.footer.newsletter_title | raw }}</span>
         <label for='email' class='visually-hidden'>Email Address:</label>
         <input
           type='email'
@@ -33,7 +35,7 @@
           required
           autocomplete='email'
         >
-        <button type='submit' class='footer-top__actions button'>Subscribe</button>
+        <button type='submit' class='footer-top__subscribe button'>Subscribe</button>
       </form>
     </div>
   </div>
@@ -41,11 +43,11 @@
     <div class='footer-bottom__legal'>
       <ul>
         {% for item in common.footer.legal %}
-          <a href='{{item.href}}'>
-            <li>{{ item.name }}</li>
-          </a>
+          <li>
+            <a href='{{item.href}}'>{{ item.name }}</a>
+          </li>
           {% if not loop.last %}
-            |
+            <li class='footer-bottom__separator'>|</li>
           {% endif %}
         {% endfor %}
       </ul>

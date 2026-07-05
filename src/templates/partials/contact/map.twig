@@ -1,8 +1,10 @@
-<section class='map'>
-  <img src='' alt='{{contact.map.image_alt}}'>
-  <div class='map__info'>
-    <img class='map__icon' src='' alt='{{contact.map.icon_alt}}'>
-    <span class='map__name'>{{ contact.map.name }}</span>
-    <span class='map__address'>{{ contact.map.address }}</span>
+<section class='contact-map'>
+  <div class='contact-map__media'>
+    <img src='{{ contact.map.image_src }}' alt='{{ contact.map.image_alt }}'>
+    <div class='contact-map__info'>
+      <img class='contact-map__icon' src='{{ contact.map.icon_src }}' alt='{{ contact.map.icon_alt }}'>
+      <span class='contact-map__name'>{{ contact.map.name }}</span>
+      <span class='contact-map__address'>{{ contact.map.address }}</span>
+    </div>
   </div>
 </section>

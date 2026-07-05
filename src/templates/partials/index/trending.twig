@@ -1,7 +1,9 @@
 <section class='trending'>
   <div class='trending__header'>
-    <span class='trending__label label'>{{ index.trending.label }}</span>
-    <h2 class='trending__title'>{{ index.trending.title }}</h2>
+    <div class='trending__header-wrapper'>
+      <span class='trending__label label'>{{ index.trending.label }}</span>
+      <h2 class='trending__title'>{{ index.trending.title }}</h2>
+    </div>
     <div class='trending__nav-buttons'>
       <button type='button' aria-label='Navigation left button' class='trending__nav-left button'>left</button>
       <button type='button' aria-label='Navigation right button' class='trending__nav-right button'>right</button>
@@ -14,11 +16,15 @@
         {% if item.trophy %}
           <span class='trending__trophy-icon'>⭐️</span>
         {% endif %}
-        <span class='trending__grid-title'>{{ item.title }}</span>
-        <span class='trending__grid-description'>{{ item.price }}</span>
-        <span class='trending__grid-description'>{{ item.description1 }}</span>
-        <span class='separator'>•</span>
-        <span class='trending__grid-description2'>{{ item.description2 }}</span>
+        <div class='trending__meta'>
+          <span class='trending__grid-title'>{{ item.title }}</span>
+          <span class='trending__grid-price'>{{ item.price }}</span>
+        </div>
+        <div class='trending__tags'>
+          <span class='trending__grid-description'>{{ item.description1 }}</span>
+          <span class='separator'>•</span>
+          <span class='trending__grid-description2'>{{ item.description2 }}</span>
+        </div>
       </div>
     {% endfor %}
   </div>

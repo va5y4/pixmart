@@ -19,9 +19,17 @@
       </div>
     </div>
     <div class='hero__images'>
-      {% for item in index.hero.images %}
-        <img class='hero__{{item.class}}' src='{{item.src}}' alt='{{item.alt}}'>
-      {% endfor %}
+      <div class='hero__image-card hero__image-card--main'>
+        <img class='hero__image1' src='{{ index.hero.images[0].src }}' alt='{{ index.hero.images[0].alt }}'>
+      </div>
+      <div class='hero__image-card hero__image-card--top'>
+        <img class='hero__image2' src='{{ index.hero.images[1].src }}' alt='{{ index.hero.images[1].alt }}'>
+      </div>
+      <div class='hero__image-card hero__image-card--bottom'>
+        <img class='hero__image3' src='{{ index.hero.images[2].src }}' alt='{{ index.hero.images[2].alt }}'>
+      </div>
+      <img class='hero__icon hero__icon--top' src='/src/assets/images/hero-icon.svg' alt='design icon'>
+      <img class='hero__icon hero__icon--bottom' src='/src/assets/images/hero-icon2.svg' alt='assets icon'>
     </div>
   </div>
 </section>

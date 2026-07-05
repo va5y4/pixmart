@@ -1,4 +1,26 @@
+@use '../global/mixins';
+
 .link {
-    background-color: var(--bg-base);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 14px 24px;
+    background-color: transparent;
+    color: var(--text-primary) !important;
+    border: 1.5px solid var(--elements-seporatorbold);
     border-radius: 8px;
+    cursor: pointer;
+    transition: border-color 0.2s ease, background-color 0.2s ease;
+    @include mixins.l1;
+
+    &:hover {
+        border-color: var(--elements-line);
+        background-color: var(--bg-alternative);
+    }
+
+    &:focus-visible {
+        outline: 2px solid var(--elements-focus);
+        outline-offset: 2px;
+    }
 }

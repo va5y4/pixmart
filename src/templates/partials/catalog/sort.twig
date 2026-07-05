@@ -1,5 +1,5 @@
 <section class='sort'>
-  <div class='sort__categories'>
+  <div class='sort__toolbar'>
     <select class='sort__select' name='category' id='category-select'>
       {% for item in catalog.sort.list %}
         <option value='best_seller' selected>{{ item }}</option>
@@ -7,17 +7,13 @@
     </select>
     <div class='sort__results'>
       <span>{{ catalog.sort.results }}</span>
-      <button type='button' class='button sort__view-button-primary' aria-label='View in primary mode'>
-        view-button-secondary
-      </button>
-      <button type='button' class='button sort__view-button-secondary' aria-label='View in secondary mode'>
-        view-button-secondary
-      </button>
+      <button type='button' class='button sort__view-button-primary' aria-label='View in primary mode'></button>
+      <button type='button' class='button sort__view-button-secondary' aria-label='View in secondary mode'></button>
     </div>
+  </div>
     <div class='sort__tags'>
       {% for item in catalog.sort.tags %}
         <button type='button' class='button sort__tag-button'>{{ item }}</button>
       {% endfor %}
     </div>
-  </div>
 </section>

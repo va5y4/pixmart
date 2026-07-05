@@ -6,7 +6,7 @@
     },
     "nav": [
       {
-        "title": "Home",
+        "title": "Homepage",
         "url": "/"
       },
       {
@@ -14,11 +14,11 @@
         "url": "/catalog"
       },
       {
-        "title": "Blog",
+        "title": "Blog Details",
         "url": "/blog"
       },
       {
-        "title": "Contact",
+        "title": "Contacts",
         "url": "/contact"
       }
     ],
@@ -31,13 +31,16 @@
       "newsletter_title": "Subscribe to <br> Design Newsletter",
       "socials": [
         {
-          "alt": "Twitter icon"
+          "alt": "Twitter icon",
+          "src": "/src/assets/icons/social-twitter.svg"
         },
         {
-          "alt": "Facebook icon"
+          "alt": "Facebook icon",
+          "src": "/src/assets/icons/social-facebook.svg"
         },
         {
-          "alt": "Telegram icon"
+          "alt": "Telegram icon",
+          "src": "/src/assets/icons/social-telegram.svg"
         }
       ],
       "nav": [
@@ -143,7 +146,7 @@
           "href": ""
         }
       ],
-      "copyright": " 2024 Pixmart. All rights reserved."
+      "copyright": "2024 Pixmart. All rights reserved."
     }
   }
 }

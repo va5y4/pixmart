@@ -17,7 +17,6 @@
           "E-Commerce",
           "Education",
           "Entertainment",
-          "Others",
           "Others"
         ]
       },
@@ -38,77 +37,90 @@
     },
     "sort": {
       "list": ["Best Seller"],
+      "results": "12 results",
       "tags": ["UI Kit", "UI Kit"]
     },
     "grid": [
       {
         "status": "SOLD OUT",
+        "src": "/src/assets/images/trend-travel.svg",
         "title": "Lens Chronicles",
         "description": "Photography · Creative",
         "price": "€00.00"
       },
       {
         "status": "NEW",
+        "src": "/src/assets/images/trend-healthcare.svg",
         "title": "Career Success",
         "description": "Guidance · Jobs",
         "price": "€20.99"
       },
       {
         "status": "POPULAR",
+        "src": "/src/assets/images/trend-real-estate.svg",
         "title": "Dream Homes",
         "description": "Real Estate · Modern",
         "price": "€45.99"
       },
       {
         "status": "POPULAR",
+        "src": "/src/assets/images/trend-foodish.svg",
         "title": "Foodish Catering",
         "description": "Food · Events",
         "price": "€15.99"
       },
       {
         "status": "NEW",
+        "src": "/src/assets/images/trend-healthcare.svg",
         "title": "Caring Hearts",
         "description": "Healthcare · Support",
         "price": "€19.99"
       },
       {
         "status": "SOLD OUT",
+        "src": "/src/assets/images/trend-real-estate.svg",
         "title": "Gaming Rise",
         "description": "eSports · Trends",
         "price": "€00.00"
       },
       {
         "status": "SOLD OUT",
+        "src": "/src/assets/images/trend-travel.svg",
         "title": "Edit Pro",
         "description": "Design · Tools",
         "price": "€00.00"
       },
       {
         "status": "NEW",
+        "src": "/src/assets/images/trend-healthcare.svg",
         "title": "Banking Redefined",
         "description": "Finance · Secure",
         "price": "€25.99"
       },
       {
         "status": "POPULAR",
+        "src": "/src/assets/images/trend-foodish.svg",
         "title": "Exploring Fun",
         "description": "Travel · Adventure",
         "price": "€41.99"
       },
       {
         "status": "POPULAR",
+        "src": "/src/assets/images/trend-real-estate.svg",
         "title": "Admin Dashboard",
-        "description": "Data · Toolse",
+        "description": "Data · Tools",
         "price": "€15.99"
       },
       {
         "status": "NEW",
+        "src": "/src/assets/images/trend-healthcare.svg",
         "title": "Analytical Dashboard",
-        "description": "Data · Toolse",
+        "description": "Data · Tools",
         "price": "€10.99"
       },
       {
         "status": "SOLD OUT",
+        "src": "/src/assets/images/trend-travel.svg",
         "title": "Kindergarten",
         "description": "Education · Kids",
         "price": "€00.00"

@@ -1,7 +1,10 @@
-<section class='info'>
-  <ul class='info__list'>
+<section class='contact-info'>
+  <ul class='contact-info__list'>
     {% for item in contact.info %}
-      <li><img src='{{item.src}}' alt='{{item.alt}}'>{{ item.data }}</li>
+      <li class='contact-info__item'>
+        <img src='{{ item.src }}' alt='{{ item.alt }}'>
+        <span>{{ item.data }}</span>
+      </li>
     {% endfor %}
   </ul>
 </section>

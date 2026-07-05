@@ -1,6 +1,8 @@
-<section class='hero'>
-  <span class='hero__label label'>{{ contact.hero.label }}</span>
-  <h1 class='hero__title title'>{{ contact.hero.title | raw }}</h1>
-  <p class='hero__description'>{{ contact.hero.description }}</p>
-  <a href='' class='hero__button button'>{{ contact.hero.button }}</a>
+<section class='contact-hero'>
+  <div class='contact-hero__container'>
+    <span class='contact-hero__label label'>{{ contact.hero.label }}</span>
+    <h1 class='contact-hero__title'>{{ contact.hero.title | raw }}</h1>
+    <p class='contact-hero__description'>{{ contact.hero.description }}</p>
+    <a href='/catalog' class='contact-hero__button button'>{{ contact.hero.button }}</a>
+  </div>
 </section>

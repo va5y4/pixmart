@@ -1,35 +1,35 @@
 <aside class='sidebar'>
-  <form action=''>
+  <form action='#'>
     <div class='sidebar__categories'>
       <h4>{{ catalog.sidebar.categories.title }}</h4>
       {% for item in catalog.sidebar.categories.list %}
         <div class='sidebar__categories-item'>
-          <input type='checkbox' id='category' name='category_checkbox'>
-          <label for='category'>{{ item }}</label>
+          <input type='checkbox' id='category-{{ loop.index }}' name='category_checkbox'>
+          <label for='category-{{ loop.index }}'>{{ item }}</label>
         </div>
       {% endfor %}
-
-      <div class='sidebar__format'>
-        <h4>{{ catalog.sidebar.format.title }}</h4>
-        {% for item in catalog.sidebar.format.list %}
-          <div class='sidebar__format-item'>
-            <input type='radio' name='format_checkbox' id='format'>
-            <label for='format'>{{ item }}</label>
-          </div>
-        {% endfor %}
-
-        <div class='sidebar__style'>
-          <h4>{{ catalog.sidebar.style.title }}</h4>
-          {% for item in catalog.sidebar.style.list %}
-            <div class='sidebar__style-item'>
-              <input type='checkbox' name='style_checkbox' id='checkbox'>
-              <label for='checkbox'>{{ item }}</label>
-            </div>
-          {% endfor %}
-        </div>
-
-        <button type='reset' class='sidebar__reset-button button'>{{ catalog.sidebar.reset }}</button>
-      </div>
     </div>
+
+    <div class='sidebar__format'>
+      <h4>{{ catalog.sidebar.format.title }}</h4>
+      {% for item in catalog.sidebar.format.list %}
+        <div class='sidebar__format-item'>
+          <input type='radio' name='format_checkbox' id='format-{{ loop.index }}'>
+          <label for='format-{{ loop.index }}'>{{ item }}</label>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class='sidebar__style'>
+      <h4>{{ catalog.sidebar.style.title }}</h4>
+      {% for item in catalog.sidebar.style.list %}
+        <div class='sidebar__style-item'>
+          <input type='checkbox' name='style_checkbox' id='style-{{ loop.index }}'>
+          <label for='style-{{ loop.index }}'>{{ item }}</label>
+        </div>
+      {% endfor %}
+    </div>
+
+    <button type='reset' class='sidebar__reset-button button'>{{ catalog.sidebar.reset }}</button>
   </form>
 </aside>

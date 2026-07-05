@@ -3,9 +3,11 @@
 
 {% block content %}
   {% include 'src/templates/partials/blog/hero.twig' %}
-  <div>
+  <section class='blog-page'>
     {% include 'src/templates/partials/blog/banner.twig' %}
-    {% include 'src/templates/partials/blog/sidebar.twig' %}
-    {% include 'src/templates/partials/blog/article.twig' %}
-  </div>
+    <div class='blog-page__body'>
+      {% include 'src/templates/partials/blog/article.twig' %}
+      {% include 'src/templates/partials/blog/sidebar.twig' %}
+    </div>
+  </section>
 {% endblock %}

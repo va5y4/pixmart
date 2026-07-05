@@ -1,0 +1,282 @@
+@use '../global/mixins';
+
+.contact-page {
+    padding: 40px 0 96px;
+    background:
+        radial-gradient(circle at 10% 10%, rgba(232, 239, 248, 0.65), rgba(255, 255, 255, 0) 42%),
+        linear-gradient(180deg, #f8fbff 0%, #ffffff 36%, #f8fbff 100%);
+}
+
+.contact-hero,
+.contact-info,
+.contact-map,
+.contact-form {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.contact-hero {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        max-width: 680px;
+    }
+
+    &__title {
+        color: var(--text-primary);
+        font-size: clamp(40px, 5.2vw, 64px);
+        line-height: clamp(50px, 6vw, 74px);
+        letter-spacing: -0.03em;
+    }
+
+    &__description {
+        @include mixins.s5;
+        color: var(--fixed-secondary);
+        max-width: 640px;
+    }
+
+    &__button {
+        width: fit-content;
+        margin-top: 6px;
+    }
+}
+
+.contact-info {
+    margin-top: 44px;
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 18px 20px;
+        border-radius: 12px;
+        background: #ffffff;
+        border: 1px solid rgba(40, 79, 121, 0.12);
+        box-shadow: 0 8px 22px rgba(34, 62, 95, 0.07);
+
+        img {
+            width: 24px;
+            height: 24px;
+            flex: 0 0 auto;
+        }
+
+        span {
+            @include mixins.l1;
+            color: var(--text-secondary);
+        }
+    }
+}
+
+.contact-map {
+    margin-top: 28px;
+
+    &__media {
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px;
+        border: 1px solid rgba(44, 78, 117, 0.15);
+        box-shadow: 0 16px 34px rgba(21, 47, 83, 0.12);
+
+        > img {
+            width: 100%;
+            min-height: 320px;
+            object-fit: cover;
+        }
+    }
+
+    &__info {
+        position: absolute;
+        left: 22px;
+        bottom: 20px;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-areas:
+            'icon name'
+            'icon address';
+        column-gap: 12px;
+        row-gap: 2px;
+        padding: 14px 16px;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid rgba(32, 72, 114, 0.12);
+        backdrop-filter: blur(4px);
+    }
+
+    &__icon {
+        grid-area: icon;
+        width: 22px;
+        height: 22px;
+        margin-top: 2px;
+    }
+
+    &__name {
+        grid-area: name;
+        @include mixins.l1;
+        font-weight: var(--font-weight-semibold);
+        color: var(--text-primary);
+    }
+
+    &__address {
+        grid-area: address;
+        @include mixins.l3;
+        color: var(--fixed-secondary2);
+    }
+}
+
+.contact-form {
+    margin-top: 28px;
+
+    &__container {
+        border-radius: 18px;
+        padding: 24px;
+        background: #ffffff;
+        border: 1px solid rgba(34, 73, 116, 0.12);
+        box-shadow: 0 14px 28px rgba(28, 56, 88, 0.08);
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+    }
+
+    &__group {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        label {
+            @include mixins.l2;
+            font-weight: var(--font-weight-semibold);
+            color: var(--text-primary);
+        }
+
+        input,
+        select,
+        textarea {
+            @include mixins.l2;
+            width: 100%;
+            padding: 12px 14px;
+            border-radius: 10px;
+            border: 1px solid rgba(28, 64, 105, 0.2);
+            color: var(--text-primary);
+            background: #ffffff;
+        }
+
+        textarea {
+            min-height: 140px;
+            resize: vertical;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: 2px solid rgba(56, 146, 243, 0.35);
+            border-color: rgba(56, 146, 243, 0.8);
+        }
+
+        &--full {
+            grid-column: 1 / -1;
+        }
+    }
+
+    &__footer {
+        margin-top: 18px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    &__checkboxes {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__checkbox {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+
+        input {
+            width: 16px;
+            height: 16px;
+        }
+
+        label {
+            @include mixins.l2;
+            color: var(--fixed-secondary);
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .contact-info {
+        &__list {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .contact-form {
+        &__grid {
+            grid-template-columns: 1fr;
+        }
+
+        &__group {
+            &--full {
+                grid-column: auto;
+            }
+        }
+
+        &__footer {
+            align-items: stretch;
+            flex-direction: column;
+        }
+
+        &__button {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-page {
+        padding: 28px 0 72px;
+    }
+
+    .contact-hero,
+    .contact-info,
+    .contact-map,
+    .contact-form {
+        padding: 0 16px;
+    }
+
+    .contact-map {
+        &__media {
+            > img {
+                min-height: 280px;
+            }
+        }
+
+        &__info {
+            left: 12px;
+            right: 12px;
+            bottom: 12px;
+        }
+    }
+
+    .contact-form {
+        &__container {
+            padding: 18px;
+        }
+    }
+}

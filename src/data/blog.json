@@ -1,11 +1,15 @@
 {
   "blog": {
+    "banner": {
+      "src": "/src/assets/images/blog-banner.png",
+      "alt": "Best business plan presentation template"
+    },
     "hero": {
       "label": "TYPOGRAPHY",
       "title": "Mastering the Art of Typography:<br> Tips for Eye-Catching Designs for 2024"
     },
     "author": {
-      "psrc": "/src/assets/images/emma.jpg",
+      "psrc": "/src/assets/images/blog-author.png",
       "palt": "Emma Clarke",
       "name": "Emma Clarke",
       "date": "April 10, 2024",
@@ -24,14 +28,14 @@
       "title": "Latest Articles",
       "list": [
         {
-          "heading": "Text",
+          "heading": "How to Build Better Layout Rhythm in Modern UI",
           "date": "March 15, 2024",
           "datetime": "2024-03-15"
         },
         {
-          "heading": "Text",
-          "date": "March 15, 2024",
-          "datetime": "2024-03-15"
+          "heading": "Color Pairing Strategies That Keep Interfaces Clear",
+          "date": "March 28, 2024",
+          "datetime": "2024-03-28"
         }
       ]
     },
@@ -59,8 +63,13 @@
       "figure": {
         "caption": "Example of font usage in typography.",
         "link": "Get this asset",
-        "src": "",
-        "alt": "Figure image"
+        "href": "#",
+        "src": "/src/assets/images/blog-figure.png",
+        "alt": "Typography example composition"
+      },
+      "quote_icon": {
+        "src": "/src/assets/icons/quote.svg",
+        "alt": "Quote icon"
       },
       "quote": "Typography is not just the art of arranging type but the craft of breathing life into characters, turning words into stories that captivate the soul.",
       "epilog": "Typography is an art that speaks volumes beyond the mere letters on a surface. By applying these tips, designers can elevate their work from mere messages to powerful visual statements. Remember, mastering typography is a journey of continuous learning and experimentation. Embrace the process, and let your designs speak louder than words. Happy designing!"

@@ -1,0 +1,111 @@
+@use '../global/mixins';
+
+.faq {
+    padding: 56px 72px 72px;
+    background-color: var(--bg-base);
+    display: grid;
+    grid-template-columns: minmax(260px, 36%) 1fr;
+    gap: 34px;
+    align-items: start;
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 0;
+        gap: 24px;
+    }
+
+    &__header-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    &__label {
+        // uses .label utility
+    }
+
+    &__title {
+        color: var(--text-primary);
+        max-width: 290px;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        border-top: none;
+    }
+}
+
+.faq-item {
+    border: 1px solid var(--elements-seporator);
+    border-radius: 10px;
+    padding: 0 14px;
+    background-color: var(--bg-base);
+
+    &__question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 0;
+        cursor: pointer;
+        @include mixins.l1;
+        color: var(--text-primary);
+        list-style: none;
+        user-select: none;
+        gap: 16px;
+        transition: color 0.15s ease;
+
+        &::-webkit-details-marker {
+            display: none;
+        }
+
+        &::after {
+            content: '';
+            flex-shrink: 0;
+            width: 20px;
+            height: 20px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M5 7.5L10 12.5L15 7.5' stroke='%232A3541' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            transition: transform 0.2s ease;
+        }
+
+        &:hover {
+            color: var(--elements-accent-link);
+        }
+    }
+
+    &[open] > &__question {
+        color: var(--elements-accent-link);
+
+        &::after {
+            transform: rotate(180deg);
+        }
+    }
+
+    &__answer {
+        @include mixins.p2;
+        color: var(--text-secondary);
+        padding-bottom: 14px;
+        max-width: 720px;
+        line-height: var(--line-height-p2);
+    }
+}
+
+@media (max-width: 1024px) {
+    .faq {
+        padding: 56px 32px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .faq {
+        padding: 48px 16px;
+    }
+}

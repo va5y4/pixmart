@@ -8,22 +8,24 @@
     },
     "info": [
       {
-        "src": "",
+        "src": "/src/assets/icons/contact-call.svg",
         "alt": "Phone icon",
         "data": "+1 (555) 123-4567"
       },
       {
-        "src": "",
+        "src": "/src/assets/icons/contact-mail.svg",
         "alt": "Email icon",
         "data": "support@pixelmart.com"
       },
       {
-        "src": "",
+        "src": "/src/assets/icons/contact-time.svg",
         "alt": "Clock icon",
         "data": "Monday to Friday : 9 AM - 5 PM EST"
       }
     ],
     "map": {
+      "image_src": "/src/assets/images/contact-map.png",
+      "icon_src": "/src/assets/icons/contact-pin.svg",
       "image_alt": "Map image",
       "icon_alt": "Map icon",
       "name": "PixMart HQ",

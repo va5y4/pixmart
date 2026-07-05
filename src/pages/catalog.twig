@@ -3,10 +3,11 @@
 
 {% block content %}
   {% include 'src/templates/partials/catalog/hero.twig' %}
-  <section class='content'>
+  <section class='catalog-page'>
     {% include 'src/templates/partials/catalog/sidebar.twig' %}
-    <div class='catalog__main'></div>
-    {% include 'src/templates/partials/catalog/sort.twig' %}
-    {% include 'src/templates/partials/catalog/grid.twig' %}
+    <div class='catalog-page__main'>
+      {% include 'src/templates/partials/catalog/sort.twig' %}
+      {% include 'src/templates/partials/catalog/grid.twig' %}
+    </div>
   </section>
 {% endblock %}

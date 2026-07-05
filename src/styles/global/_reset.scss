@@ -1,9 +1,14 @@
 @use '../global/mixins';
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: var(--font-family-main);
     color: var(--text-primary);
     background-color: var(--bg-base);
@@ -13,6 +18,26 @@ html.no-scroll,
 body.no-scroll {
     overflow: hidden !important;
     height: 100% !important;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
 }
 
 .visually-hidden {
@@ -38,4 +63,36 @@ a {
 
 h1 {
     @include mixins.h1;
+}
+
+h2 {
+    @include mixins.h2;
+}
+
+// Layout container
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+// Section label (uppercase tag above headings)
+.label {
+    @include mixins.l4;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--elements-accent-link);
+    font-weight: var(--font-weight-semibold);
+}
+
+// Section header group
+.section-header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+// Section padding
+.section {
+    padding: 80px 0;
 }

@@ -13,82 +13,76 @@
         {
           "class": "image1",
           "src": "/src/assets/images/hero-image1.webp",
-          "alt": "Hero image"
+          "alt": "UI Kit preview"
         },
         {
-          "src": "",
-          "alt": "Hero image"
+          "class": "image2",
+          "src": "/src/assets/images/hero-image2.webp",
+          "alt": "Event template preview"
         },
         {
-          "src": "",
-          "alt": "Hero image"
-        },
-        {
-          "src": "",
-          "alt": "Hero image"
-        },
-        {
-          "src": "",
-          "alt": "Hero image"
+          "class": "image3",
+          "src": "/src/assets/images/hero-image3.png",
+          "alt": "Conference website screens preview"
         }
       ]
     },
     "products": [
       {
-        "href": "",
-        "src": "",
+        "href": "#",
+        "src": "/src/assets/icons/product-ui-kits.svg",
         "alt": "UI Kits icon",
         "name": "UI Kits"
       },
       {
-        "href": "",
-        "src": "",
+        "href": "#",
+        "src": "/src/assets/icons/product-social-media.svg",
         "alt": "Social Media icon",
-        "name": "Socia Media"
+        "name": "Social Media"
       },
       {
-        "href": "",
-        "src": "",
+        "href": "#",
+        "src": "/src/assets/icons/product-presentation.svg",
         "alt": "Presentation icon",
         "name": "Presentation"
       },
       {
-        "href": "",
-        "src": "",
+        "href": "#",
+        "src": "/src/assets/icons/product-fonts.svg",
         "alt": "Fonts icon",
         "name": "Fonts"
       },
       {
-        "href": "",
-        "src": "",
+        "href": "#",
+        "src": "/src/assets/icons/product-illustrations.svg",
         "alt": "Illustrations icon",
         "name": "Illustrations"
       }
     ],
     "cards": [
       {
-        "src": "",
+        "src": "/src/assets/icons/product-ui-kits.svg",
         "alt": "Templates icon",
         "title": "Templates",
         "description1": "For all needs",
         "description2": "Modern"
       },
       {
-        "src": "",
+        "src": "/src/assets/icons/product-social-media.svg",
         "alt": "App Icons icon",
         "title": "App Icons",
         "description1": "High-quality",
         "description2": "Elegant"
       },
       {
-        "src": "",
+        "src": "/src/assets/icons/product-presentation.svg",
         "alt": "Slides icon",
         "title": "Slides",
         "description1": "Pitch-ready",
         "description2": "Creative"
       },
       {
-        "src": "",
+        "src": "/src/assets/icons/product-illustrations.svg",
         "alt": "Design Tools icon",
         "title": "Design Tools",
         "description1": "Easy to use",
@@ -106,7 +100,7 @@
       "title": "Popular Products",
       "grid": [
         {
-          "src": "",
+          "src": "/src/assets/images/trend-travel.svg",
           "alt": "Travel Hero image",
           "trophy": true,
           "title": "Travel Hero",
@@ -115,7 +109,7 @@
           "description2": "Journey"
         },
         {
-          "src": "",
+          "src": "/src/assets/images/trend-healthcare.svg",
           "alt": "Healthcare Pro image",
           "trophy": true,
           "title": "Healthcare Pro",
@@ -124,7 +118,7 @@
           "description2": "Wellness"
         },
         {
-          "src": "",
+          "src": "/src/assets/images/trend-foodish.svg",
           "alt": "Foodish Delight image",
           "trophy": false,
           "title": "Foodish Delight",
@@ -133,7 +127,7 @@
           "description2": "Food"
         },
         {
-          "src": "",
+          "src": "/src/assets/images/trend-real-estate.svg",
           "alt": "Real Estate image",
           "trophy": false,
           "title": "Real Estate",
@@ -179,7 +173,7 @@
       }
     ],
     "pricing": {
-      "label": "PRICING",
+      "label": "PRICING PLAN",
       "title": "Choose The Perfect Plan for Creative Potential"
     },
     "faq_list": [

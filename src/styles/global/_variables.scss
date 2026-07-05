@@ -140,9 +140,19 @@
   --line-height-p3: 20px;
   --line-height-p4: 16px;
   --line-height-p5: 16px;
+  --font-size-l1: 16px;
+  --line-height-l1: 24px;
+  --font-size-l2: 14px;
+  --line-height-l2: 20px;
   --font-size-l3: 14px;
   --line-height-l3: 20px;
+  --font-size-l4: 12px;
+  --line-height-l4: 16px;
+  --font-size-l5: 11px;
+  --line-height-l5: 16px;
 
   //Shadows
-  --shadow-header: 0px 4px 40px 0px rgba(29, 57, 95, 0.02)
+  --shadow-header: 0px 4px 40px 0px rgba(29, 57, 95, 0.02);
+  --shadow-card: 0px 4px 24px 0px rgba(29, 57, 95, 0.08);
+  --shadow-card-hover: 0px 8px 40px 0px rgba(29, 57, 95, 0.16);
 }

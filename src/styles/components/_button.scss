@@ -1,10 +1,30 @@
 @use '../global/mixins';
 
 .button {
-    color: var(--primary-white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 14px 24px;
     background-color: var(--marina800);
+    color: var(--fixed-primarywhite) !important;
     border: none;
     border-radius: 8px;
-    color: var(--primary-white) !important;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
     @include mixins.l1;
+
+    &:hover {
+        background-color: var(--marina700);
+        box-shadow: var(--shadow-card);
+    }
+
+    &:active {
+        background-color: var(--marina900);
+    }
+
+    &:focus-visible {
+        outline: 2px solid var(--elements-focus);
+        outline-offset: 2px;
+    }
 }
